@@ -21,41 +21,38 @@ Copilot Studio documentation.
 
 1.  Sign into **Microsoft Copilot Studio** with your **Office 365 admin
     tenant** credentials
-    using **[https://copilotstudio.microsoft.com/](urn:gd:lg:a:send-vm-keys).**
+    using +++https://copilotstudio.microsoft.com/+++
     You land on the **Home** page.
 
 2.  Ensure that you are in **Dev One** environment.
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 3.  Enter a brief description of what you want your agent to be—for
     example here, "**Help users learn how to create agents with Copilot
     Studio**." Click on the **Send** icon.
 
-> **Note**: The description can have up to 1,000 characters.
->
-> ![](./media/image2.png)
+     **Note**: The description can have up to 1,000 characters.
+
+     ![](./media/image2.png)
 
 4.  A page appears with two panes where you can set up your agent on the
     left-hand side, and test it on the right-hand side. The left-hand
     pane has two tabs: **Describe** and **Configure**. Here, you will be
     using **Describe** tab which is selected already.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  For this example, tell Copilot you want to name your agent "Friendly
     Tutor." To do so enter the given prompt - **Name the agent as
     "Friendly Tutor"** and then click on the **Send** icon.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image4.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
 6.  Notice the new name appears in the test pane. The maximum length for
     the name is 30 characters.
 
-> ![A screenshot of a chat AI-generated content may be
-> incorrect.](./media/image5.png)
+     ![A screenshot of a chat AI-generated content may be incorrect.](./media/image5.png)
 
 7.  If desired, refine the instructions Copilot generated for your agent
     but keep them simple for now. Just make sure you include information
@@ -68,29 +65,25 @@ Copilot Studio documentation.
     talk to users like a kind, patient teacher** and then click on the
     **Send** icon.
 
-> ![](./media/image6.png)
+     ![](./media/image6.png)
 
 9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell
     Copilot you want to
     **Use https://learn.microsoft.com/microsoft-copilot-studio as a
     knowledge source**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image7.png)
->
-> **Note:** During the creation experience, your agent might need a few
-> moments before it can start using its knowledge sources.
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
+
+     **Note:** During the creation experience, your agent might need a few moments before it can start using its knowledge        sources.
 
 10. Select **Create**.
 
-> ![A screenshot of a chat AI-generated content may be
-> incorrect.](./media/image8.png)
+     ![A screenshot of a chat AI-generated content may be incorrect.](./media/image8.png)
 
 11. The **Overview** page for your agent appears. Now you can
-    start [testing and improving your
-    agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-started#improve-your-agent).
+    start testing and improving your agent (https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-         started#improve-your-agent).
 
-> ![](./media/image9.png)
+     ![](./media/image9.png)
 
 ### **Task 2: Test changes to your agent**
 
@@ -102,43 +95,38 @@ again. Repeat.
     screen, ask your agent a question. For example, enter "**How do I
     add a knowledge source?**" and select **Send** icon.
 
-> ![](./media/image10.png)
+     ![](./media/image10.png)
 
 2.  Notice the tone of your agent. In this example, the agent's
     instructions are to talk to users like a kind, patient
     teacher*.* What if you give your agent different instructions?
 
-> ![](./media/image11.png)
+     ![](./media/image11.png)
 
 3.  Go to the **Overview** page.
 
-> ![](./media/image12.png)
+     ![](./media/image12.png)
 
 4.  Update the instructions for your agent to use a different tone by
     selecting **Edit** button in the **Instructions** field.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image13.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image14.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
+
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
 5.  Edit/replace sentence specifying the tone by the given sentence -
     ‘**Talk to users like Jane Austen’** and then click **Save**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image15.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
 6.  Test your agent's new instructions with any question. Enter "**How
     do I add a knowledge source?**" and select **Send** icon.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image16.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
 
 7.  Notice how the response has changed.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image17.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
 ### **Task 3: Change your agent's introduction**
 
@@ -150,33 +138,31 @@ encourages them to interact with your agent.
     message. Click on the **New test session** icon at the top of the
     panel to restart the conversation.
 
-> ![](./media/image18.png)
+     ![](./media/image18.png)
 
 2.  Select the **Message** box then select the ellipsis (…) next to the
     message ‘Hello I am bot’.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image19.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
 3.  Replace the default message with your own by the message given
     below:
 
-> **Hello, I'm here to help you learn how to use Microsoft Copilot
-> Studio. You can ask me all about agents: "What is an agent?" "How do I
-> make an agent?" "How do agents work?"**
->
-> ![](./media/image20.png)
+     **Hello, I'm here to help you learn how to use Microsoft Copilot
+     Studio. You can ask me all about agents: "What is an agent?" "How do I
+     make an agent?" "How do agents work?"**
+
+     ![](./media/image20.png)
 
 4.  Select **Save**.
 
-> ![](./media/image21.png)
+     ![](./media/image21.png)
 
 5.  To test this change, click on the **New test session** icon at the
     top of the panel to restart the conversation in the **Test your
     agent** chat panel.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image18.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
 ## **Exercise 2: Enable Multilingual Support and Publish Agent**
 
@@ -192,7 +178,7 @@ This ensures the agent can respond appropriately in multiple languages.
     click on **Settings** to open the configuration options for the
     agent.
 
-![](./media/image22.png)
+    ![](./media/image22.png)
 
 2.  Within the **Settings** menu, locate and click on
     the **Languages** section from the left side pane. Here, you will
@@ -200,44 +186,42 @@ This ensures the agent can respond appropriately in multiple languages.
     The **Primary language** option should already be set
     to **English**.
 
-> ![](./media/image23.png)
+     ![](./media/image23.png)
 
 3.  Click on the **+ Add language** button to begin adding a new
     language. This will allow your agent to support multilingual
     conversations.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image24.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
 4.  In the language picker, search for **French (France)**. Once
     located, check the box next to it and click **Add** to include it as
     a supported language.
 
-> ![](./media/image25.png)
+     ![](./media/image25.png)
 
 5.  After French has been added, click the **Upload** button. This will
     allow you to manage translations for the agent's content in the
     newly added language.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image26.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image26.png)
 
 6.  Click **Browse**.
 
-> ![](./media/image27.png)
+     ![](./media/image27.png)
 
 7.  Locate the localization_fr.json file in your **C:\Labfiles** folder
     on the VM and click **Open**.
 
-> ![](./media/image28.png)
->
-> **Note**: You can download the current language structure by
-> selecting **Download localization file (JSON format)** and then
-> translate it in the required language. In this lab you are using a
-> pre-translated localization_fr.json file which is available in
-> the **C:\Labfiles** folder.
->
-> ![](./media/image29.png)
+     ![](./media/image28.png)
+
+     **Note**: You can download the current language structure by
+     selecting **Download localization file (JSON format)** and then
+     translate it in the required language. In this lab you are using a
+     pre-translated localization_fr.json file which is available in
+     the **C:\Labfiles** folder.
+
+     ![](./media/image29.png)
 
 8.  Select **Upload translation updates**. When prompted again, click on
     the **Upload localization** button to confirm and apply the
@@ -564,3 +548,4 @@ incorrect.](./media/image83.png)
 > also learnt to enable multilingual support in the agent. You uploaded
 > the translated localization file and created a custom topic that
 > detects the user's language and sets it dynamically.
+
