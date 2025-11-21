@@ -29,8 +29,8 @@ Copilot Studio documentation.
     ![](./media/image1.png)
 
 3.  Enter a brief description of what you want your agent to be—for
-    example here, "**Help users learn how to create agents with Copilot
-    Studio**." Click on the **Send** icon.
+    example here, +++Help users learn how to create agents with Copilot
+    Studio+++ Click on the **Send** icon.
 
      **Note**: The description can have up to 1,000 characters.
 
@@ -44,8 +44,8 @@ Copilot Studio documentation.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  For this example, tell Copilot you want to name your agent "Friendly
-    Tutor." To do so enter the given prompt - **Name the agent as
-    "Friendly Tutor"** and then click on the **Send** icon.
+    Tutor." To do so enter the given prompt - **Name** the agent as
+    +++Friendly Tutor+++ and then click on the **Send** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
@@ -69,8 +69,8 @@ Copilot Studio documentation.
 
 9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell
     Copilot you want to
-    **Use https://learn.microsoft.com/microsoft-copilot-studio as a
-    knowledge source**.
+    +++Use https://learn.microsoft.com/microsoft-copilot-studio as a
+    knowledge source+++
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
@@ -81,7 +81,7 @@ Copilot Studio documentation.
      ![A screenshot of a chat AI-generated content may be incorrect.](./media/image8.png)
 
 11. The **Overview** page for your agent appears. Now you can
-    start testing and improving your agent (https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-         started#improve-your-agent).
+    start testing and improving your agent https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-         started#improve-your-agent).
 
      ![](./media/image9.png)
 
@@ -509,5 +509,6 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
