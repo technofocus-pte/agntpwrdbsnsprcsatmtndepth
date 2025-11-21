@@ -1,5 +1,4 @@
-# **Lab 3: Create an agent to answer employee questions about expense
-policies**
+# **Lab 3: Create an agent to answer employee questions about expense policies**
 
 **Objective:** In this lab, you will learn to use Copilot Studio to
 create an agent that answers employee questions about expense policies
@@ -364,4 +363,5 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
