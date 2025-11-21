@@ -7,7 +7,7 @@ group and assigned a Bot author role to MOD Administrator.
 ## **Exercise 1: Assign Power Apps trial license**
 
 1.  Open a web browser on your VM and go to
-    +++<https://powerapps.microsoft.com/en-us/free/>+++.
+    +++https://powerapps.microsoft.com/en-us/free/+++.
 
      ![](./media/image1.png)
 
@@ -193,4 +193,5 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
