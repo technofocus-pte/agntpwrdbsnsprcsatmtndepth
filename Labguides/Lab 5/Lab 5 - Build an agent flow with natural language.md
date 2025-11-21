@@ -10,233 +10,205 @@ Studio designer
 
 1.  Sign into **Microsoft Copilot Studio** with your **Office 365 admin
     tenant** credentials
-    using ***https://copilotstudio.microsoft.com/*.**
+    using +++https://copilotstudio.microsoft.com/+++
 
 2.  Ensure that you are in **Dev One** environment.
 
-> ![](./media/image1.png)
+     ![](./media/image1.png)
 
 3.  From the left navigation pane, select **Flows.** Enter a prompt
     given below that describes what you want the flow to do in everyday
     language. Then select **Submit**.
 
-> **Prompt:** When an item is created in SharePoint Vacation list, send
-> me an email to approve or reject the vacation request
->
-> ![](./media/image2.png)
+     **Prompt:** When an item is created in SharePoint Vacation list, send
+     me an email to approve or reject the vacation request
+
+     ![](./media/image2.png)
 
 4.  Allow a few seconds for Copilot to generate a flow based on your
     prompt. You can see that Copilot has generated the flow.
     Select **Keep it and continue**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  Review the apps and services that Copilot connected to your flow. A
     green checkmark indicates that the connection is successful.
     Select **Create**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image4.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
 6.  You will be navigated to the **Designer** window. Here you need to
     add required information to complete the flow.
 
-> ![](./media/image5.png)
+     ![](./media/image5.png)
 
 7.  Select **When an item is created** step. Select the **Cross sign**
     for the **Site Address** field to remove the default selection.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image6.png)
 
 8.  Select the **Contoso site address** from the drop-down menu.
 
-> ![](./media/image7.png)
+     ![](./media/image7.png)
 
 9.  From the **List Name** field, select the **Cross** icon to remove
     the default selection.
 
-> ![](./media/image8.png)
+     ![](./media/image8.png)
 
 10. Select the **Vacation** list from the drop-down menu of the **List
     Name**.
 
-> ![](./media/image9.png)
+     ![](./media/image9.png)
 
 11. Select the **Get my profile** step.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image10.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
 
 12. Select **Show all**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image11.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.png)
 
 13. Enter **aboutMe** in the **Select fields** field.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image12.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
 
 14. Select **Start and wait for an approval** step. Remove the default
     selection under the **Approval type** field.
 
-> ![A screenshot of a computer error message AI-generated content may be
-> incorrect.](./media/image13.png)
+     ![A screenshot of a computer error message AI-generated content may be incorrect.](./media/image13.png)
 
 15. Now select **Approve/Reject-First to respond** from the drop-down
     menu.
 
-> ![A screenshot of a survey AI-generated content may be
-> incorrect.](./media/image14.png)
+     ![A screenshot of a survey AI-generated content may be incorrect.](./media/image14.png)
 
 16. Keep the **Title** field as **Vacation Request Approval**.
 
-> ![](./media/image15.png)
+     ![](./media/image15.png)
 
 17. Under the **Assigned to** field, remove the default selection if any
     and click on the **Dynamic content** icon.
 
-> ![](./media/image16.png)
+     ![](./media/image16.png)
 
 18. Enter **Created by Email** in the search box and then select it from
     the list.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image17.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
 19. Under the **Details** field, enter the following information.
 
-> **Details**: \<Created by Displayname\> wants to go on vacation from
-> \<Start Date\> to \<End Date\>. (Select Created by Displayname, Start
-> Date and End Date from the Dynamic content)
->
-> ![A screenshot of a computer screen AI-generated content may be
-> incorrect.](./media/image18.png)
+     **Details**: <Created by Displayname> wants to go on vacation from
+     <Start Date> to <End Date>. (Select Created by Displayname, Start
+     Date and End Date from the Dynamic content)
+
+     ![A screenshot of a computer screen AI-generated content may be incorrect.](./media/image18.png)
 
 20. Select the **Condition** step.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image19.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
 21. Complete the condition step as shown below. In the first field of
     the expression select **Outcome** from the **dynamic content**,
     select **is equal to** from the **drop-down** list and enter
     **Approve** in the third field of the formula.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image20.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
 
 22. Select **Send an email** step under the **True** condition.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image21.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
 23. Remove the default selection in the **To** field.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image22.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
 
 24. In the **To** field, select **Setting/Gear** icon and then select
     **Use dynamic content**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image23.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
 
 25. Select **Dynamic content** icon.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image24.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
 26. In the search box, enter **Created by Email** and select it from the
     suggestion list.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image25.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
 27. Expand the **False** condition.
 
-> ![](./media/image26.png)
+     ![](./media/image26.png)
 
 28. Select the **Send an Email 2** step.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image27.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image27.png)
 
 29. Remove the default selection in the To field and then select
     **Setting/Gear** icon and then select **Use dynamic content**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image28.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image28.png)
 
 30. Select **Dynamic content** icon.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image29.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image29.png)
 
 31. In the search box, enter **Created by Email** and select it from the
     suggestion list.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image30.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image30.png)
 
 32. Select **Save draft**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image31.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image31.png)
 
 33. Select **Publish** to publish the flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image32.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image32.png)
 
 34. Click on the **App launcher** from the left corner of the screen and
     then select **SharePoint**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image33.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
 
 35. Select **Contoso** site from the home page of SharePoint.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image34.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image34.png)
 
 36. Select **Vacation** list from the horizontal palette. Select **+Add
     new item**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image35.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image35.png)
 
 37. Enter the sample required information as given below and then click
     on the **Save** button.
 
-> **Title**: Vacation request
->
-> **Start Date**: Any future date
->
-> **End Date**: Any future date
->
-> **Comments**: Travelling to native
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image36.png)
+     **Title**: +++Vacation request+++
+    
+     **Start Date**: Any future date
+    
+     **End Date**: Any future date
+    
+     **Comments**: +++Travelling to native+++
+
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
 38. Go to the **Outlook** account of the **MOD Admin**. And you can see
     the Email requesting for the vacation approval. Click on the
     **Approve** button, enter the **comment** as **Approved** and then
     click on the **Submit** button.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image37.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image37.png)
 
 39. In the same Outlook account, you will receive another mail
     mentioning that **The vacation request has been approved**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image38.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image38.png)
 
 **Summary:** In this lab you learnt to create an automated approval
 process for vacation requests by generating flow from a simple prompt,
 configuring SharePoint and email actions, and publishing the flow for
 real-world testing.
+
