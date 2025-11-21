@@ -256,7 +256,7 @@ to the Teams channel
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image42.png)
 
-2.  Select +**New agent flow** to create a new flow.
+2.  Select **+New agent flow** to create a new flow.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image43.png)
 
@@ -320,9 +320,9 @@ to the Teams channel
     
      Travel Request from
     
-     Employee ID - \<Employee ID\>
+     Employee ID - <Employee ID>
     
-     Purpose - \<Purpose\>
+     Purpose - <Purpose>
     
      \`\`\`
     
@@ -412,8 +412,7 @@ Travels in order to leverage the flow functionality.
 
 7.  Once added, you can see the flow under **Tools** tab.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image75.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image75.png)
 
 8.  Select **Overview** tab, the flow will get listed under **Tools**
     section.
@@ -721,4 +720,5 @@ to travel.
 **Summary:** In this lab, you learnt how to enhance an agent created
 from a template to suit the individual needs. You have also learnt to
 implement Multi agent orchestration in the Copilot Studio.
+
 
