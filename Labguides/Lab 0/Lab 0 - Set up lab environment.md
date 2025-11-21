@@ -51,10 +51,10 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![](./media/image9.png)
 
-## **Exercise 2: Create a team in Microsoft Teams **
+## **Exercise 2: Create a team in Microsoft Teams**
 
 1.  Sign into the Microsoft Teams
-    using +++https://teams.microsoft.com/+++ with
+    using +++https://teams.microsoft.com/+++ with
     your Office 365 tenant credentials.
 
 2.  On **Get to know Teams**, select **Get Started**.
@@ -74,7 +74,7 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
 
-6.  Enter the Team name as +++Test Team+++. In Name the first channel
+6.  Enter the **Team name** as +++Test Team+++. In **Name the first channel**
     field enter +++TestChannel+++ and click on **Private**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
@@ -160,7 +160,7 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image29.png)
 
-15. From the left navigation pane, select **Manage** \> **Environments**
+15. From the left navigation pane, select **Manage** > **Environments**
     and then click on the **Dev One** environment.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image30.png)
@@ -193,5 +193,6 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
