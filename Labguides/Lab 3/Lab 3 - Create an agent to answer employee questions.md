@@ -57,22 +57,22 @@ In this task, you will create a new agent using Copilot Studio.
     appropriate name and tone. Enter the given prompt give the name and
     click on the **Execute** button.
 
-    **Prompt**: Name the agent as +++Expense Helper+++
+    **Prompt**: +++Name the agent as Expense Helper+++
 
      ![](./media/image6.png)
 
 8.  Enter the given prompt to adjust the tone and then click on the
     **Execute** button.
 
-    **Prompt**: Use a friendly, professional tone
+    **Prompt**: +++Use a friendly, professional tone+++
 
      ![](./media/image7.png)
 
 9.  Ask the agent not to use any publicly accessible websites by giving
     the given prompt and then click on the **Execute** button.
 
-     **Prompt**: Do not use any publicly accessible websites to get its
-     information and avoid providing any tax advice
+     **Prompt**: +++Do not use any publicly accessible websites to get its
+     information and avoid providing any tax advice+++
 
      **Note**: You will add a source of knowledge for your agent later.
 
@@ -363,6 +363,7 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
 
 
