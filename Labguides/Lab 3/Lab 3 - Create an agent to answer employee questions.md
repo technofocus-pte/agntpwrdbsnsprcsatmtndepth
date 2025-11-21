@@ -44,7 +44,7 @@ In this task, you will create a new agent using Copilot Studio.
 
 5.  Select the **Describe** tab and then enter the following prompt:
 
-     **Create an agent to help employees with expense claims.**
+     +++Create an agent to help employees with expense claims+++
 
      ![](./media/image4.png)
 
@@ -363,5 +363,6 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
 
