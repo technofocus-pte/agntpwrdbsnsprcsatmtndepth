@@ -98,7 +98,7 @@ In this task, you will create a new agent using Copilot Studio.
 13. Now try the following prompt and then click on the **Execute**
     button.
 
-     **Prompt**: Who should I contact about submitting an expense claim?
+     **Prompt**: +++Who should I contact about submitting an expense claim?+++
 
      ![](./media/image12.png)
 
@@ -246,7 +246,7 @@ information.
 
 8.  Then enter the following prompt:
 
-     **What’s the expense limit for a hotel stay?**
+     +++What’s the expense limit for a hotel stay?+++
 
      The response should be based on the information in the knowledge source you uploaded, and include a citation reference.
 
@@ -331,7 +331,7 @@ for use in a demo web page.
 
 13. In the **Demo website** pane, enter the following settings:
 
-    - **Welcome message**: Ask me about Expense claims 
+    - **Welcome message**: +++Ask me about Expense claims+++ 
 
     - **Conversation starters**:
 
@@ -363,6 +363,7 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
 
 
