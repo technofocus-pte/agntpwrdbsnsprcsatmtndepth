@@ -44,8 +44,8 @@ Copilot Studio documentation.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  For this example, tell Copilot you want to name your agent "Friendly
-    Tutor." To do so enter the given prompt - **Name** the agent as
-    +++Friendly Tutor+++ and then click on the **Send** icon.
+    Tutor." To do so enter the given prompt - +++Name the agent as
+    Friendly Tutor+++ and then click on the **Send** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
@@ -54,23 +54,22 @@ Copilot Studio documentation.
 
      ![A screenshot of a chat AI-generated content may be incorrect.](./media/image5.png)
 
-7.  If desired, refine the instructions Copilot generated for your agent
+7.  Note that, you can refine the Copilot generated instructions for your agent
     but keep them simple for now. Just make sure you include information
     about what your agent helps users do. Notice the suggested prompts
     in the test pane are automatically updated, following your changes.
-    The instructions can have up to 8,000 characters.
+    The instructions can have up to 8,000 characters. In this case, we are going with the above prompt.
 
 8.  Specify the desired conversation style and tone your agent should
-    use, for example, enter the given prompt - **Friendly Tutor should
-    talk to users like a kind, patient teacher** and then click on the
+    use, for example, enter the given prompt - +++Friendly Tutor should
+    talk to users like a kind, patient teacher+++ and then click on the
     **Send** icon.
 
      ![](./media/image6.png)
 
 9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell
     Copilot you want to
-    +++Use https://learn.microsoft.com/microsoft-copilot-studio as a
-    knowledge source+++
+    +++Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source+++
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
@@ -92,8 +91,8 @@ again. Repeat.
 
 1.  Start by testing how your agent currently responds in the test chat.
     In the **Test you agent** pane, which is opened on right side of the
-    screen, ask your agent a question. For example, enter "**How do I
-    add a knowledge source?**" and select **Send** icon.
+    screen, ask your agent a question. For example, enter +++How do I
+    add a knowledge source?+++ and select **Send** icon.
 
      ![](./media/image10.png)
 
@@ -115,12 +114,12 @@ again. Repeat.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
 5.  Edit/replace sentence specifying the tone by the given sentence -
-    **'Talk to users like Jane Austen'** and then click **Save**.
+    +++Talk to users like Jane Austen+++ and then click **Save**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
-6.  Test your agent's new instructions with any question. Enter "**How
-    do I add a knowledge source?**" and select **Send** icon.
+6.  Test your agent's new instructions with any question. Enter +++How
+    do I add a knowledge source?+++ and select **Send** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
 
@@ -148,9 +147,9 @@ encourages them to interact with your agent.
 3.  Replace the default message with your own by the message given
     below:
 
-     **Hello, I'm here to help you learn how to use Microsoft Copilot
+     +++Hello, I'm here to help you learn how to use Microsoft Copilot
      Studio. You can ask me all about agents: "What is an agent?" "How do I
-     make an agent?" "How do agents work?"**
+     make an agent?" "How do agents work?"+++
 
      ![](./media/image20.png)
 
@@ -297,7 +296,7 @@ This ensures the agent can respond appropriately in multiple languages.
     the **Describe** section, enter the following phrases to trigger
     this topic:
 
-    Can you translate this?, Translate for me, I need a translation, Help me translate, Translate this sentence, Translate       this text, Can you help me with translation?
+    +++Can you translate this?, Translate for me, I need a translation, Help me translate, Translate this sentence,     Translate this text, Can you help me with translation?+++
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image45.png)
 
@@ -315,8 +314,8 @@ This ensures the agent can respond appropriately in multiple languages.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image48.png)
 
-8.  In the **Instructions** pane, enter the following text "Determine
-    which language this message is written in:"
+8.  In the **Instructions** pane, enter the following text +++Determine
+    which language this message is written in:+++
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image49.png)
 
@@ -325,8 +324,8 @@ This ensures the agent can respond appropriately in multiple languages.
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image50.png)
 
-10. For **Name**, enter: **Message**, for **Sample Data**,
-    enter: Message from the user and then click **Close** once done.
+10. For **Name**, enter: +++Message+++, for **Sample Data**,
+    enter: +++Message from the user+++ and then click **Close** once done.
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image51.png)
 
@@ -372,7 +371,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![](./media/image60.png)
 
-20. In the **Enter or select a value field**, enter **French** to set
+20. In the **Enter or select a value field**, enter +++**French**+++ to set
     the value to **French**.
 
      ![](./media/image61.png)
@@ -382,12 +381,12 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![](./media/image62.png)
 
-22. Click on the S**elect a variable** field, navigate to the **System**
+22. Click on the **Select a variable** field, navigate to the **System**
     variable and select **User.Language**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image63.png)
 
-23. For value, click on the value field and select **French.**
+23. For value, click on the value field and select **French**.
 
      ![](./media/image64.png)
 
@@ -397,11 +396,11 @@ This ensures the agent can respond appropriately in multiple languages.
      ![](./media/image65.png)
 
 25. On the second condition line, choose the variable
-    DetectedLanguage.structuredOutput.language.
+    **DetectedLanguage.structuredOutput.language**.
 
      ![](./media/image66.png)
 
-26. Enter **German** to set the value to **German**.
+26. Enter +++**German**+++ to set the value to **German**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image67.png)
 
@@ -433,8 +432,8 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image73.png)
 
-33. Under **French, German and English** variable node, There is
-    a **+** node option which can add node under all of them. click on
+33. Under the **French, German and English** variable node, there is
+    a **+** node option which can add node under all of them. Click on
     the **+** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image74.png)
@@ -509,6 +508,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
