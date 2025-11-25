@@ -7,7 +7,7 @@ group and assigned a Bot author role to MOD Administrator.
 ## **Exercise 1: Assign Power Apps trial license**
 
 1.  Open a web browser on your VM and go to
-    +++https://powerapps.microsoft.com/en-us/free/+++.
+    !!https://powerapps.microsoft.com/en-us/free/!!.
 
      ![](./media/image1.png)
 
@@ -40,7 +40,7 @@ group and assigned a Bot author role to MOD Administrator.
      ![](./media/image7.png)
 
 8.  Open the new tab and go to **Power Platform admin center** by
-    navigating to +++https://admin.powerplatform.microsoft.com+++ and if
+    navigating to !!https://admin.powerplatform.microsoft.com!! and if
     required, sign in using your given Office 365 admin tenant
     credentials.
 
@@ -54,7 +54,7 @@ group and assigned a Bot author role to MOD Administrator.
 ## **Exercise 2: Create a team in Microsoft Teams**
 
 1.  Sign into the Microsoft Teams
-    using +++https://teams.microsoft.com/+++ with
+    using !!https://teams.microsoft.com/!! with
     your Office 365 tenant credentials.
 
 2.  On **Get to know Teams**, select **Get Started**.
@@ -74,8 +74,8 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
 
-6.  Enter the **Team name** as +++Test Team+++. In **Name the first channel**
-    field enter +++TestChannel+++ and click on **Private**.
+6.  Enter the **Team name** as !!Test Team!!. In **Name the first channel**
+    field enter !!TestChannel!! and click on **Private**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
@@ -94,11 +94,11 @@ group and assigned a Bot author role to MOD Administrator.
 ## **Exercise 3: Create a Security group and assign Bot author role** **to MOD Administrator**
 
 1.  Open a web browser on your VM and go to the Azure portal using
-    +++https://portal.azure.com/+++. Sign in with the given **Office 365
+    !!https://portal.azure.com/!!. Sign in with the given **Office 365
     admin credentials.** Complete the authentication process.
 
-2.  On the Microsoft Azure portal, in the search bar, enter +++Microsoft
-    Entra+++ and select **Microsoft Entra ID** from the suggestions.
+2.  On the Microsoft Azure portal, in the search bar, enter !!Microsoft
+    Entra!! and select **Microsoft Entra ID** from the suggestions.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
@@ -115,11 +115,12 @@ group and assigned a Bot author role to MOD Administrator.
 
      Group type: Security
 
-     Name: +++Agentgrp+++
+     Name: !!Agentgrp!!
 
      ![](./media/image21.png)
 
-6.  To select owners, click on the **no owners selected**.
+
+6.  If appears, select **Yes** for **Microsoft Entra roles can be assigned to the group**. Then to select owners, click on       the **no owners selected**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
@@ -137,13 +138,13 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-10. Select **Create**.
+10. If appears, click on the **No roles selected** in the **Roles**, enter !!Global!! in the search box, select **Global         Administrator** then click on the **Select** button. Select **Create**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
 11. Navigate to Power Platform admin center. From the left navigation
     pane, select **Manage** tab. Then select **Tenant settings**. In the
-    search box, enter +++Copilot Studio+++ and then select **Copilot
+    search box, enter !!Copilot Studio!! and then select **Copilot
     Studio authors**.
 
      ![](./media/image26.png)
@@ -193,6 +194,7 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
 
