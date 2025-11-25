@@ -97,8 +97,7 @@ group and assigned a Bot author role to MOD Administrator.
     !!https://portal.azure.com/!!. Sign in with the given **Office 365
     admin credentials.** Complete the authentication process.
 
-2.  On the Microsoft Azure portal, in the search bar, enter !!Microsoft
-    Entra!! and select **Microsoft Entra ID** from the suggestions.
+2.  On the Microsoft Azure portal, in the search bar, enter !!Microsoft Entra!! and select **Microsoft Entra ID** from the       suggestions.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
@@ -138,7 +137,7 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-10. If appears, click on the **No roles selected** in the **Roles**, enter !!Global!! in the search box, select **Global         Administrator** then click on the **Select** button. Select **Create**.
+10. If appears, click on the **No roles selected** in the **Roles** field, enter !!Global!! in the search box, select **Global         Administrator** then click on the **Select** button. Select **Create**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
@@ -194,6 +193,7 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
 
