@@ -28,13 +28,7 @@ Copilot Studio documentation.
 
     ![](./media/image1.png)
 
-3.  Enter a brief description of what you want your agent to be—for
-    example here, +++Help users learn how to create agents with Copilot
-    Studio+++ Click on the **Send** icon.
-
-     **Note**: The description can have up to 1,000 characters.
-
-     ![](./media/image2.png)
+3.  Select **Agents** from the left navigation pane and then select **+ New agent**.
 
 4.  A page appears with two panes where you can set up your agent on the
     left-hand side, and test it on the right-hand side. The left-hand
@@ -508,6 +502,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
