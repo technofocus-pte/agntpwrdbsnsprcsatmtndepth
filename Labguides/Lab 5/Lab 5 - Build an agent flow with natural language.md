@@ -1,4 +1,4 @@
-**Lab 5: Build an agent flow with natural language**
+# **Lab 5: Build an agent flow with natural language**
 
 **Objective:** In this lab, you will learn how to build an agent flow
 using natural language in Microsoft Copilot Studio. Based on your
@@ -211,5 +211,6 @@ Studio designer
 process for vacation requests by generating flow from a simple prompt,
 configuring SharePoint and email actions, and publishing the flow for
 real-world testing.
+
 
 
