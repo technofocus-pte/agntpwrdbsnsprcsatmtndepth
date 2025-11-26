@@ -11,7 +11,7 @@ time of the showing.
 
 1.  Sign into **Microsoft Copilot Studio** with your **Office 365 admin
     tenant** credentials
-    using +++https://go.microsoft.com/fwlink/?LinkId=2107702+++
+    using !!https://go.microsoft.com/fwlink/?LinkId=2107702!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
 
@@ -43,13 +43,13 @@ time of the showing.
 
      ![image](./media/image6.png)
 
-     Open the Power Platform Admin Center using +++https://admin.powerplatform.microsoft.com/+++. From the left-hand
+     Open the Power Platform Admin Center using !!https://admin.powerplatform.microsoft.com/!!. From the left-hand
      menu, select **Manage**, then choose **Environments** > **Dev One**. Copy the **Environment ID**, and update the             Copilot Studio link accordingly, as shown in the image below.
 
      ![image](./media/image7.png)
 
-     Navigate back to the Copilot Studio tab and open +++https://copilotstudio.microsoft.com/environments/>**\<
-     EnvironmentID>**/home+++ (Replacing **< EnvironmentID >** with the value fetched above)
+     Navigate back to the Copilot Studio tab and open !!https://copilotstudio.microsoft.com/environments/>**\<
+     EnvironmentID>**/home!! (Replacing **< EnvironmentID >** with the value fetched above)
 
      ![](./media/image8.png)
 
@@ -69,17 +69,15 @@ time of the showing.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.png)
 
-9.  Name your agent as +++**Real Estate Booking Service**+++.
+9.  Name your agent as !!**Real Estate Booking Service**!!.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
 
-10. In the **Description** text box, enter **Create bookings for real
-    estate properties.**
+10. In the **Description** text box, enter !!Create bookings for real estate properties!!.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
 
-11. In the **Instructions** text box, enter +++**Speak courteously and
-    mimic the behavior of a real estate agent.**+++
+11. In the **Instructions** text box, enter !!Speak courteously and mimic the behavior of a real estate agent!!.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
@@ -106,11 +104,11 @@ time of the showing.
 
 17. In the **Name your topic** field, enter the following text:
 
-     +++**Book a Real Estate Showing**+++
+     !!Book a Real Estate Showing!!
 
 18. In the Create a topic to... field, enter the following text:
 
-     +++**Collect a user's full name, email, address of the property, and date and time of the showing**+++
+     !!Collect a user's full name, email, address of the property, and date and time of the showing!!
 
      Select **Create**.
 
@@ -135,7 +133,7 @@ time of the showing.
 
      ![](./media/image23.png)
 
-21. Enter [**Thank you**](urn:gd:lg:a:send-vm-keys) in the message box
+21. Enter !!Thank you!! in the message box
     and then select **{X}** icon to insert variable.
 
     ![](./media/image24.png)
@@ -162,7 +160,7 @@ user if the details are correct.
 2.  In the **Edit with Copilot** panel, in the **What do you want to
     do?** field, enter the following text:
 
-     +++Summarize the information collected in an adaptive card+++
+     !!Summarize the information collected in an adaptive card!!
 
 3.  Select **Update**.
 
@@ -189,7 +187,7 @@ user if the details are correct.
 
 8.  In the **What do you want to do?** field, enter the following text:
 
-     +++Add a new multiple choice question to prompt the user if the details are correct with two options Yes or No+++
+     !!Add a new multiple choice question to prompt the user if the details are correct with two options Yes or No!!
 
 9.  Select **Update**.
 
@@ -217,7 +215,7 @@ user if the details are correct.
     start a conversation. In response, enter a trigger phrase for the
     topic that you've created:
 
-     +++I want to book a real estate showing+++
+     !!I want to book a real estate showing!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image37.png)
 
@@ -227,13 +225,13 @@ user if the details are correct.
 
 15. Enter the rest of the information:
 
-     Full name: +++Brooke Gray+++
+     Full name: !!Brooke Gray!!
     
-     Email address: +++abc@example.com+++ 
+     Email address: !!abc@example.com!!
     
-     Address: +++555 Oak Lane, Denver, CO80203+++ 
+     Address: !!555 Oak Lane, Denver, CO80203!!
     
-     Date and Time: +++25/12/2025 10:00 AM+++
+     Date and Time: !!25/12/2025 10:00 AM!!
     
      ![](./media/image39.png)
 
@@ -247,4 +245,5 @@ user if the details are correct.
      ![](./media/image41.png)
 
  **Summary**: In this lab, you created a Real Estate Booking Service agent which helps you to collect user’s information.         You have used an Adaptive card to summarize information collected from the user and to enhance the conversation              experience.
+
 
