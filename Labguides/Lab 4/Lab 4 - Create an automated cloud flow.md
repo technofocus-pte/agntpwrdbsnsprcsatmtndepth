@@ -12,7 +12,7 @@ updates.
 Before you create the flow, create a SharePoint Online list. Later, you
 will use this list to request approval for vacations.
 
-1.  Login to office 365 +++https://www.office.com/+++ using your 365 Tenant
+1.  Login to office 365 !!https://www.office.com/!! using your 365 Tenant
     Credentials.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
@@ -50,7 +50,7 @@ will use this list to request approval for vacations.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image9.png)
 
-10. Give a name to your site as +++Contoso+++ and then select **Next**.
+10. Give a name to your site as !!Contoso!! and then select **Next**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
 
@@ -66,8 +66,7 @@ will use this list to request approval for vacations.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
 
-14. Select **Create** (+ icon) from the left navigation pane ->
-    **List**
+14. Select **Create** (+ icon) from the left navigation pane -> **List**
 
      ![](./media/image14.png)
 
@@ -79,13 +78,13 @@ will use this list to request approval for vacations.
 
 16. Enter the details and click on **Create**.
 
-    - Name – +++Vacation+++
+    - Name – !!Vacation!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
-    - Description - +++Request approval for vacation+++
+    - Description - !!Request approval for vacation!!
     
     - Choose a color – Dark blue
     
@@ -133,7 +132,7 @@ SharePoint updates for approved or rejected requests.
 
 ### **Task 1: Create an automated cloud flow**
 
-1.  Log in to **Power Automate** using +++https://make.powerautomate.com/+++
+1.  Log in to **Power Automate** using !!https://make.powerautomate.com/!!
     with your office 365 Tenant credentials.
 
      ![](./media/image25.png)
@@ -174,7 +173,7 @@ SharePoint updates for approved or rejected requests.
 
 ### **Task 3: Add a profile action**
 
-1.  Select **+icon** to add **new** **step**.
+1.  Select **+icon** to add **new step**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image32.png)
 
@@ -193,7 +192,7 @@ SharePoint updates for approved or rejected requests.
 
      ![](./media/image35.png)
 
-5.  Click in the plain area and then select enter “**aboutMe**” in the
+5.  Click in the plain area and then select enter !!aboutMe!! in the
     **Select fields**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
@@ -204,8 +203,7 @@ SharePoint updates for approved or rejected requests.
 
 ### **Task 4: Add an approval action**
 
-1.  Select **+ icon** to add **new step** under **Get my profile(V2)**
-    step.
+1.  Select **+ icon** to add **new step** under **Get my profile(V2)** step.
 
      ![](./media/image38.png)
 
@@ -218,7 +216,7 @@ SharePoint updates for approved or rejected requests.
 
     - **Approval type** – Approve/Reject – First to respond
 
-    - **Title** - +++Vacation Request+++ for <Created By DisplayName>
+    - **Title** - !!Vacation Request!! for <Created By DisplayName>
       (Select Created by DisplayName from Dynamic Content)
 
      ![](./media/image40.png)
@@ -293,8 +291,7 @@ Follow these steps to send an email if the vacation request is approved:
      the vacation request changes.
     
      In the **Body** box on the **Send an email (V2)** card, use
-     the **Comments** token from the **Approvals - Start an
-     approval** action.
+     the **Comments** token from the **Approvals - Start an approval** action.
 
     - **To** - Select <Created By Email> from dynamic content. Select
       **Settings** icon for the To field, select **Use dynamic content** and
@@ -302,10 +299,9 @@ Follow these steps to send an email if the vacation request is approved:
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image51.png)
 
-    - **Subject** – Enter +++Your vacation request has been approved.+++
+    - **Subject** – Enter !!Your vacation request has been approved!!.
 
-    - **Body** – Enter +++Your vacation has been approved by+++ <Responses
-      Approver Name>
+    - **Body** – Enter !!Your vacation has been approved by!! <Responses Approver Name>
 
      Approver Comments – Select **Responses Comments** from dynamic content.
 
@@ -374,7 +370,7 @@ Follow these steps to send an email if the vacation request is approved:
 
      ![](./media/image60.png)
 
-    - Subject – +++Sorry – Your vacation request was not approved.+++
+    - Subject – !!Sorry – Your vacation request was not approved!!.
 
     - Body - Seelct <**Responses Comments**> from the Dynamic content
 
@@ -447,13 +443,13 @@ Follow these steps to send an email if the vacation request is approved:
 
 3.  Enter the following details and click on **Save.**
 
-    - **Title** - +++Vacation Request+++
+    - **Title** - !!Vacation Request!!
     
-    - **Start Date** – +++December 15+++
+    - **Start Date** – !!December 15!!
     
-    - **End Date** – +++December 16+++
+    - **End Date** – !!December 16!!
     
-    - **Comments** – +++Travelling to native+++
+    - **Comments** – !!Travelling to native!!
 
      ![](./media/image67.png)
 
@@ -490,7 +486,7 @@ Follow these steps to send an email if the vacation request is approved:
     ![](./media/image72.png)
 
 9.  You can check the status of Approval in Microsoft Teams. Go to
-    Microsoft Teams using +++https://teams.microsoft.com/+++ (If required,
+    Microsoft Teams using !!https://teams.microsoft.com/!! (If required,
     sign in with your Office 365 tenant credentials). Select **(…)More
     added apps** > **Approvals**.
 
@@ -529,4 +525,5 @@ Follow these steps to send an email if the vacation request is approved:
  automated cloud flow triggered when a new item is added to the list,
  to add different actions and conditional logic and verified approval
  outcomes in Power Automate and Outlook.
+
 
