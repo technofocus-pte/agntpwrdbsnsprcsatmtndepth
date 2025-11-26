@@ -95,37 +95,41 @@ will use this list to request approval for vacations.
 17. Create these columns in your SharePoint Online list using upcoming
     steps:
 
-    [TABLE]
-
-    Column	            Type
-    Title:	            Single line of text
-    Start Date:	        Date and Time
-    End Date:	        Date and Time
-    Comments:	        Text (Single line of text)
-    Approved:	        Yes/No
-    Manager Comments:	Text (Single line of text)
+    Column and its type:
+     
+    Title: Single line of text
+    
+    Start Date: Date and Time
+    
+    End Date: Date and Time
+    
+    Comments: Text (Single line of text)
+    
+    Approved: Yes/No
+    
+    Manager Comments: Text (Single line of text)
 
      **Note**: For a better visibility, close the **New steps** pane which
      is opened on the right side on the screen.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
 
-17. Select **Add Column** and select **Date and time** then click on
+18. Select **Add Column** and select **Date and time** then click on
     **Next**. (Note that **‘Title’** column is already present in the
     list, so we will start adding remaining columns.)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
-18. Enter **Start Date** as Name in the create a column dialog that
+19. Enter **Start Date** as Name in the create a column dialog that
     appears on the right pane and then click on **Save.**
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
 
-19. The list after adding all the columns looks like the image below.
+20. Repeat the Stepno 18 and 19 to add more columns listed in the Step 17. The list after adding all the columns looks like      the image below.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
 
-20. Make note of the name and URL of the SharePoint site. To do so,
+21. Make note of the name and URL of the SharePoint site. To do so,
     click on the Contoso (name of the site) and copy the site URL in the
     notepad on the VM. You'll need these items later when you configure
     the **SharePoint - When an item is created** trigger.
@@ -533,6 +537,7 @@ Follow these steps to send an email if the vacation request is approved:
  automated cloud flow triggered when a new item is added to the list,
  to add different actions and conditional logic and verified approval
  outcomes in Power Automate and Outlook.
+
 
 
 
