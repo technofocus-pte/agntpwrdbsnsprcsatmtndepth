@@ -17,7 +17,7 @@ In this task, you will create a new agent using Copilot Studio.
 
 1.  Open a web browser, sign into **Microsoft Copilot Studio** with
     your **Office 365 admin tenant** credentials
-    using +++https://copilotstudio.microsoft.com/+++
+    using !!https://copilotstudio.microsoft.com/!!
     You land on the **Home** page.
 
 2.  View the Copilot Studio home page, which should look similar to
@@ -44,7 +44,7 @@ In this task, you will create a new agent using Copilot Studio.
 
 5.  Select the **Describe** tab and then enter the following prompt:
 
-     +++Create an agent to help employees with expense claims+++
+     !!Create an agent to help employees with expense claims!!
 
      ![](./media/image4.png)
 
@@ -57,22 +57,22 @@ In this task, you will create a new agent using Copilot Studio.
     appropriate name and tone. Enter the given prompt give the name and
     click on the **Execute** button.
 
-    **Prompt**: +++Name the agent as Expense Helper+++
+    **Prompt**: !!Name the agent as Expense Helper!!
 
      ![](./media/image6.png)
 
 8.  Enter the given prompt to adjust the tone and then click on the
     **Execute** button.
 
-    **Prompt**: +++Use a friendly, professional tone+++
+    **Prompt**: !!Use a friendly, professional tone!!
 
      ![](./media/image7.png)
 
 9.  Ask the agent not to use any publicly accessible websites by giving
     the given prompt and then click on the **Execute** button.
 
-     **Prompt**: +++Do not use any publicly accessible websites to get its
-     information and avoid providing any tax advice+++
+     **Prompt**: !!Do not use any publicly accessible websites to get its
+     information and avoid providing any tax advice!!
 
      **Note**: You will add a source of knowledge for your agent later.
 
@@ -87,7 +87,7 @@ In this task, you will create a new agent using Copilot Studio.
 11. In the **Test your agent** pane, enter the following prompt and then
     click on the **Execute** button.
 
-    **Prompt**: Hello
+    **Prompt**: !!Hello!!
 
      ![](./media/image10.png)
 
@@ -98,7 +98,7 @@ In this task, you will create a new agent using Copilot Studio.
 13. Now try the following prompt and then click on the **Execute**
     button.
 
-     **Prompt**: +++Who should I contact about submitting an expense claim?+++
+     **Prompt**: !!Who should I contact about submitting an expense claim?!!
 
      ![](./media/image12.png)
 
@@ -108,7 +108,7 @@ In this task, you will create a new agent using Copilot Studio.
 
 14. Let’s try another prompt:
 
-     +++What's the expense limit for a hotel stay?+++
+     !!What's the expense limit for a hotel stay?!!
 
      ![](./media/image14.png)
 
@@ -159,10 +159,10 @@ common questions or requests that you expect your users to enter.
      ![](./media/image19.png)
 
 4.  In the **Add from description with Copilot** dialog box, name the
-    new topic as +++Ask about expenses contact+++ and enter the following
+    new topic as !!Ask about expenses contact!! and enter the following
     text to tell Copilot Studio what the topic should do:
 
-     +++When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com+++
+     !!When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com!!
 
 5.  Select **Create**.
 
@@ -194,7 +194,7 @@ common questions or requests that you expect your users to enter.
 
 10. Enter the following prompt:
 
-     **Who should I contact about submitting an expense claim?**
+     !!Who should I contact about submitting an expense claim?!!
 
      ![](./media/image24.png)
 
@@ -246,7 +246,7 @@ information.
 
 8.  Then enter the following prompt:
 
-     +++What’s the expense limit for a hotel stay?+++
+     !!What’s the expense limit for a hotel stay?!!
 
      The response should be based on the information in the knowledge source you uploaded, and include a citation reference.
 
@@ -254,9 +254,9 @@ information.
 
 9.  Try asking some follow-up questions, such as:
 
-     +++What about flights?+++
+     !!What about flights?!!
     
-     +++What guidelines are there for entertainment expenses?+++
+     !!What guidelines are there for entertainment expenses?!!
     
      ![](./media/image33.png)
     
@@ -331,7 +331,7 @@ for use in a demo web page.
 
 13. In the **Demo website** pane, enter the following settings:
 
-    - **Welcome message**: +++Ask me about Expense claims+++ 
+    - **Welcome message**: !!Ask me about Expense claims!! 
 
     - **Conversation starters**:
 
@@ -354,7 +354,7 @@ for use in a demo web page.
 
      ![](./media/image48.png)
 
-17. Enter the message as **What are the expense limits for meals?** and
+17. Enter the message as !!What are the expense limits for meals?!! and
     view the response.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image49.png)
@@ -363,6 +363,7 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
 
 
