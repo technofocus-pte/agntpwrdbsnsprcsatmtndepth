@@ -21,7 +21,7 @@ Copilot Studio documentation.
 
 1.  Sign into **Microsoft Copilot Studio** with your **Office 365 admin
     tenant** credentials
-    using +++https://copilotstudio.microsoft.com/+++
+    using !!https://copilotstudio.microsoft.com/!!
     You land on the **Home** page.
 
 2.  Ensure that you are in **Dev One** environment.
@@ -38,8 +38,8 @@ Copilot Studio documentation.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  For this example, tell Copilot you want to name your agent "Friendly
-    Tutor." To do so enter the given prompt - +++Name the agent as
-    Friendly Tutor+++ and then click on the **Send** icon.
+    Tutor." To do so enter the given prompt - !!Name the agent as
+    Friendly Tutor!! and then click on the **Send** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
@@ -55,15 +55,15 @@ Copilot Studio documentation.
     The instructions can have up to 8,000 characters. In this case, we are going with the above prompt.
 
 8.  Specify the desired conversation style and tone your agent should
-    use, for example, enter the given prompt - +++Friendly Tutor should
-    talk to users like a kind, patient teacher+++ and then click on the
+    use, for example, enter the given prompt - !!Friendly Tutor should
+    talk to users like a kind, patient teacher!! and then click on the
     **Send** icon.
 
      ![](./media/image6.png)
 
 9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell
     Copilot you want to
-    +++Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source+++
+    !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
@@ -85,14 +85,14 @@ again. Repeat.
 
 1.  Start by testing how your agent currently responds in the test chat.
     In the **Test you agent** pane, which is opened on right side of the
-    screen, ask your agent a question. For example, enter +++How do I
-    add a knowledge source?+++ and select **Send** icon.
+    screen, ask your agent a question. For example, enter !!How do I
+    add a knowledge source?!! and select **Send** icon.
 
      ![](./media/image10.png)
 
 2.  Notice the tone of your agent. In this example, the agent's
     instructions are to talk to users like a kind, patient
-    teacher*.* What if you give your agent different instructions?
+    teacher. What if you give your agent different instructions?
 
      ![](./media/image11.png)
 
@@ -108,12 +108,11 @@ again. Repeat.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
 5.  Edit/replace sentence specifying the tone by the given sentence -
-    +++Talk to users like Jane Austen+++ and then click **Save**.
+    !!Talk to users like Jane Austen!! and then click **Save**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
-6.  Test your agent's new instructions with any question. Enter +++How
-    do I add a knowledge source?+++ and select **Send** icon.
+6.  Test your agent's new instructions with any question. Enter !!How do I add a knowledge source?!! and select **Send** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
 
@@ -141,9 +140,9 @@ encourages them to interact with your agent.
 3.  Replace the default message with your own by the message given
     below:
 
-     +++Hello, I'm here to help you learn how to use Microsoft Copilot
+     !!Hello, I'm here to help you learn how to use Microsoft Copilot
      Studio. You can ask me all about agents: "What is an agent?" "How do I
-     make an agent?" "How do agents work?"+++
+     make an agent?" "How do agents work?"!!
 
      ![](./media/image20.png)
 
@@ -290,7 +289,7 @@ This ensures the agent can respond appropriately in multiple languages.
     the **Describe** section, enter the following phrases to trigger
     this topic:
 
-    +++Can you translate this?, Translate for me, I need a translation, Help me translate, Translate this sentence,     Translate this text, Can you help me with translation?+++
+    !!Can you translate this?, Translate for me, I need a translation, Help me translate, Translate this sentence, Translate     this text, Can you help me with translation?!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image45.png)
 
@@ -319,7 +318,7 @@ This ensures the agent can respond appropriately in multiple languages.
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image50.png)
 
 10. For **Name**, enter: +++Message+++, for **Sample Data**,
-    enter: +++Message from the user+++ and then click **Close** once done.
+    enter: !!Message from the user!! and then click **Close** once done.
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image51.png)
 
@@ -365,7 +364,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![](./media/image60.png)
 
-20. In the **Enter or select a value field**, enter +++**French**+++ to set
+20. In the **Enter or select a value field**, enter !!**French**!! to set
     the value to **French**.
 
      ![](./media/image61.png)
@@ -394,7 +393,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![](./media/image66.png)
 
-26. Enter +++**German**+++ to set the value to **German**.
+26. Enter !!**German**!! to set the value to **German**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image67.png)
 
@@ -484,7 +483,7 @@ and French using test prompts in the built-in test chat window.
     on the Execute button. Observe the agent's response and verify that
     it replies in English.
 
-    **Prompt:** +++How do I add a knowledge source?+++
+    **Prompt:** !!How do I add a knowledge source?!!
 
     ![](./media/image84.png)
 
@@ -493,7 +492,7 @@ and French using test prompts in the built-in test chat window.
     replies appropriately in French, based on the uploaded localization
     content.
 
-    **Prompt:** +++Comment ajouter une source de connaissances?+++
+    **Prompt:** !!Comment ajouter une source de connaissances?!!
 
     ![](./media/image85.png)
 
@@ -502,6 +501,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
