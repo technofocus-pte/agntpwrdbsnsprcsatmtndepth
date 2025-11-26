@@ -10,7 +10,7 @@ Studio designer
 
 1.  Sign into **Microsoft Copilot Studio** with your **Office 365 admin
     tenant** credentials
-    using +++https://copilotstudio.microsoft.com/+++
+    using !!https://copilotstudio.microsoft.com/!!
 
 2.  Ensure that you are in **Dev One** environment.
 
@@ -20,8 +20,8 @@ Studio designer
     given below that describes what you want the flow to do in everyday
     language. Then select **Submit**.
 
-     **Prompt:** When an item is created in SharePoint Vacation list, send
-     me an email to approve or reject the vacation request
+     **Prompt:** !!When an item is created in SharePoint Vacation list, send
+     me an email to approve or reject the vacation request!!
 
      ![](./media/image2.png)
 
@@ -99,7 +99,7 @@ Studio designer
 
 19. Under the **Details** field, enter the following information.
 
-     **Details**: <Created by Displayname> wants to go on vacation from
+     **Details**: <Created by Displayname> !!wants to go on vacation from!!
      <Start Date> to <End Date>. (Select Created by Displayname, Start
      Date and End Date from the Dynamic content)
 
@@ -155,7 +155,7 @@ Studio designer
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image29.png)
 
-31. In the search box, enter **Created by Email** and select it from the
+31. In the search box, enter !!Created by Email!! and select it from the
     suggestion list.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image30.png)
@@ -185,13 +185,13 @@ Studio designer
 37. Enter the sample required information as given below and then click
     on the **Save** button.
 
-     **Title**: +++Vacation request+++
+     **Title**: !!Vacation request!!
     
      **Start Date**: Any future date
     
      **End Date**: Any future date
     
-     **Comments**: +++Travelling to native+++
+     **Comments**: !!Travelling to native!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
@@ -211,4 +211,5 @@ Studio designer
 process for vacation requests by generating flow from a simple prompt,
 configuring SharePoint and email actions, and publishing the flow for
 real-world testing.
+
 
