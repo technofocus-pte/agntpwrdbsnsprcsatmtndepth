@@ -93,6 +93,8 @@ group and assigned a Bot author role to MOD Administrator.
 
 ## **Exercise 3: Create a Security group and assign Bot author role** **to MOD Administrator**
 
+    In this exercise, you will create a security group and assign Bot author role to MOD Administrator to grant the              necessary publishing rights.
+
 1.  Open a web browser on your VM and go to the Azure portal using
     !!https://portal.azure.com/!!. Sign in with the given **Office 365
     admin credentials.** You can see the image shown below in your portal. Follow the instructions given in the coming steps     to complete the authentication process.
@@ -141,7 +143,7 @@ group and assigned a Bot author role to MOD Administrator.
      ![](./media/image21.png)
 
 
-8.  If appears, select **Yes** for **Microsoft Entra roles can be assigned to the group**. Then to select owners, click on       the **no owners selected**.
+8.  Then to select owners, click on the **no owners selected**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
@@ -159,7 +161,7 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-12. If appears, click on the **No roles selected** in the **Roles** field, enter !!Global!! in the search box, select **Global Administrator** then click on the **Select** button. Select **Create**.
+12.  Select **Create**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
@@ -215,6 +217,7 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
 
