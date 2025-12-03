@@ -97,9 +97,9 @@ group and assigned a Bot author role to MOD Administrator.
 
 1.  Open a web browser on your VM and go to the Azure portal using
     !!https://portal.azure.com/!!. Sign in with the given **Office 365
-    admin credentials.** You can see the image shown below in your portal. Follow the instructions given in the coming steps     to complete the authentication process.
+    admin credentials.** You can see the image shown below in your portal. Select **Next** in the **Let’s keep your account      secure** window.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.0.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.a.png)
 
 2.  In your mobile, install the **Microsoft Authenticator** App and then come back to **Microsoft Azure portal**.                **Microsoft Authenticator – Install Microsoft Authenticator** window, click on the **Next** button.
 
@@ -217,6 +217,7 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
 
