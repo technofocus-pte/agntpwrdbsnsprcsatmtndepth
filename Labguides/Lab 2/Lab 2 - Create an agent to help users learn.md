@@ -282,7 +282,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
     !!This topic detects when a user is speaking a non-English language, such as French or German, and then switches to that     language to provide answers in the correct language.!!
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image45.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/imagel2.3.4.png)
 
 5.  Click on the **(+) Add icon under Trigger node**.
 
@@ -490,6 +490,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
