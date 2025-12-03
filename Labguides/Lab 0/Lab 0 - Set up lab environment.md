@@ -103,20 +103,19 @@ group and assigned a Bot author role to MOD Administrator.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.1.png)
 
-3   In **Microsoft Authenticator – Set up your account** window, click on the **Next** button.
+3.  In **Microsoft Authenticator – Set up your account** window, click on the **Next** button.
 
-   ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.2.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.2.png)
 
-4	**Scan the QR code** using the **Authenticator app** installed in your mobile phone and click on the Next button.
+4.  **Scan the QR code** using the **Authenticator app** installed in your mobile phone and click on the Next button.
 
-  ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.3.png)
 
 5.  Enter the number in your mobile authenticator app and select **Yes**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.4.png)
 
-
-6. Click on the Done button.
+6. Click on the **Done** button.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.5.png)
    
@@ -160,7 +159,7 @@ group and assigned a Bot author role to MOD Administrator.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-12. If appears, click on the **No roles selected** in the **Roles** field, enter !!Global!! in the search box, select **Global         Administrator** then click on the **Select** button. Select **Create**.
+12. If appears, click on the **No roles selected** in the **Roles** field, enter !!Global!! in the search box, select **Global Administrator** then click on the **Select** button. Select **Create**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
@@ -216,6 +215,7 @@ group and assigned a Bot author role to MOD Administrator.
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
 
