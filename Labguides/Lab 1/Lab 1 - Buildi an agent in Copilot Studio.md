@@ -50,8 +50,7 @@ time of the showing.
 
      ![image](./media/image7.png)
 
-     Navigate back to the Copilot Studio tab and open !!https://copilotstudio.microsoft.com/environments/**<
-     EnvironmentID>**/home!! (Replacing **< EnvironmentID >** with the value fetched above)
+     Navigate back to the Copilot Studio tab and open             !!https://copilotstudio.microsoft.com/environments/<**EnvironmentID**>/home!! (Replacing **< EnvironmentID >** with the value fetched above)
 
      ![](./media/image8.png)
 
@@ -248,6 +247,7 @@ user if the details are correct.
      ![](./media/image41.png)
 
  **Summary**: In this lab, you created a Real Estate Booking Service agent which helps you to collect user’s information.         You have used an Adaptive card to summarize information collected from the user and to enhance the conversation              experience.
+
 
 
 
