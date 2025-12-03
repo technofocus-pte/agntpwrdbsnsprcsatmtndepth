@@ -125,52 +125,25 @@ In this task, you will create a new agent using Copilot Studio.
 You can use topics to provide explicit responses to triggers, such as
 common questions or requests that you expect your users to enter.
 
-1.  In the page for your agent, select the **Topics** tab to see its
-    topics. Select the **Greeting** custom topic.
-
-     ![](./media/image17.png)
-
-2.  You can see the **Greeting** custom topic on the *authoring canvas*,
-    which is a visual designer for creating and editing topics and looks
-    similar to this:
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
-
-     The *Greeting* topic is triggered by an input in which one of the following phrases is present:
-
-    - *Good afternoon*
-
-    - *Good morning*
-
-    - *Hello*
-
-    - *Hey*
-
-    - *Hi*
-
-     The response to this trigger is to return a message to the user
-     saying Hello. How can I help you today?. The inclusion of this topic
-     in the agent explains the response you saw previously when testing it.
-
-3.  Return to the **Topics** page, and in the **+ Add a topic** menu,
+1.  Select the **Topics** page, and in the **+ Add a topic** menu,
     select **Add from description with Copilot**.
 
      ![](./media/image19.png)
 
-4.  In the **Add from description with Copilot** dialog box, name the
+2.  In the **Add from description with Copilot** dialog box, name the
     new topic as !!Ask about expenses contact!! and enter the following
     text to tell Copilot Studio what the topic should do:
 
      !!When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com!!
 
-5.  Select **Create**.
+3.  Select **Create**.
 
      ![](./media/image20.png)
 
-6.  If prompted, select **Allow** for **see text and images copied to
+4.  If prompted, select **Allow** for **see text and images copied to
     the clipboard**.
 
-7.  After a short wait, a new topic named **Ask about expenses
+5.  After a short wait, a new topic named **Ask about expenses
     contact** should be created and opened in the authoring canvas,
     where it should look similar to this:
 
@@ -182,16 +155,16 @@ common questions or requests that you expect your users to enter.
 
      **Note**: When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
 
-8.  Use the **Save** button (at the top right) to save the new topic in
+6.  Use the **Save** button (at the top right) to save the new topic in
     your agent.
 
      ![](./media/image22.png)
 
-9.  Open the **Test** pane.
+7.  Open the **Test** pane.
 
      ![](./media/image23.png)
 
-10. Enter the following prompt:
+9. Enter the following prompt:
 
      !!Who should I contact about submitting an expense claim?!!
 
@@ -334,11 +307,14 @@ for use in a demo web page.
 
     - **Conversation starters**:
 
+    '''
      "Hello"
     
      "Who should I contact with expense enquiries?"
     
      "What are the expense limits for flights?"
+
+    '''
 
 14. Then **Copy** the link to your agent demo website to the clipboard.
 
@@ -362,6 +338,7 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
 
 
