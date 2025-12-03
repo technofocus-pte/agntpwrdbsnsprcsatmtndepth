@@ -58,8 +58,7 @@ Copilot Studio documentation.
 
      ![](./media/image6.png)
 
-9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell
-    Copilot you want to !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
+9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell Copilot you want to                  !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
@@ -104,9 +103,11 @@ again. Repeat.
 5.  Edit/replace sentence specifying the tone by the given sentence -
     !!Talk to users like Jane Austen!! and then click **Save**.
 
+    **Note**: The instructions shown here are AI-generated, so your instructions may differ from those displayed in the           image below.
+
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
-6.  Test your agent's new instructions with any question. Enter !!How do I add a knowledge source?!! and select **Send** icon.
+6.  Test your agent's new instructions with any question. Enter !!How do I add a knowledge source?!! and select **Send**         icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
 
@@ -176,7 +177,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-4.  In the language picker, search for **French (France)**. Once
+4.  In the language picker, search for !!French (France)!!. Once
     located, check the box next to it and click **Add** to include it as
     a supported language.
 
@@ -192,7 +193,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![](./media/image27.png)
 
-7.  Locate the localization_fr.json file in your **C:\Labfiles** folder
+7.  Locate the **localization_fr.json** file in your **C:\Labfiles** folder
     on the VM and click **Open**.
 
      ![](./media/image28.png)
@@ -224,7 +225,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![](./media/image33.png)
 
-2.  Enter **German** in the search field, select check box next to the
+2.  Enter !!German!! in the search field, select check box next to the
     **German** language and then click on the **Add** button.
 
      ![](./media/image34.png)
@@ -238,7 +239,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
-5. Locate the localization_translated_de.js file in your Downloads
+5. Locate the **localization_translated_de.js** file in your Downloads
     folder, and click **Open**.
 
      ![](./media/image37.png)
@@ -271,7 +272,7 @@ This ensures the agent can respond appropriately in multiple languages.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image43.png)
 
 3.  In the new topic canvas, at the top of the screen, enter the
-    name **Translator.**
+    name !!Translator!!.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image44.png)
 
@@ -279,7 +280,7 @@ This ensures the agent can respond appropriately in multiple languages.
     the **Describe** section, enter the following phrases to trigger
     this topic:
 
-    !!Can you translate this?, Translate for me, I need a translation, Help me translate, Translate this sentence, Translate     this text, Can you help me with translation?!!
+    !!This topic detects when a user is speaking a non-English language, such as French or German, and then switches to that     language to provide answers in the correct language.!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image45.png)
 
@@ -489,6 +490,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
