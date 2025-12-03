@@ -196,8 +196,7 @@ information.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image27.png)
 
 4.  In the **Upload file** section, select **Upload file** and upload
-    the expense policy document from the **C:\Labfiles** folder on the
-    VM.
+    the expense policy document - Expenses_Policy.docs from the **C:\Labfiles** folder on the VM.
 
      ![](./media/image28.png)
 
@@ -216,9 +215,7 @@ information.
 
      ![](./media/image31.png)
 
-8.  Then enter the following prompt:
-
-     !!What’s the expense limit for a hotel stay?!!
+8.  Then enter the following prompt: !!What’s the expense limit for a hotel stay?!!
 
      The response should be based on the information in the knowledge source you uploaded, and include a citation reference.
 
@@ -338,6 +335,7 @@ for use in a demo web page.
 employee questions about expense policies. You learnt to extend agent
 capabilities by managing topics in your agent and adding knowledge
 source and then you published the agent.
+
 
 
 
