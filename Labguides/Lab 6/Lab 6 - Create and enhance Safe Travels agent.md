@@ -34,14 +34,12 @@ Travels agent template.
     ![image](./media/image2.png)
 
      Open !!https://admin.powerplatform.microsoft.com/!!.
-     Select **Manage** -> **Environments** **-> Dev One** and select the
+     Select **Manage** -> **Environments** -> **Dev One** and select the
      value of the **Environment ID**.
 
      ![image](./media/image3.png)
 
-     Navigate back to the Copilot Studio tab and open
-     !!https://copilotstudio.microsoft.com/environments/**<
-     EnvironmentID>**!! (Replacing **<EnvironmentID>** with the
+     Navigate back to the Copilot Studio tab and open                         !!https://copilotstudio.microsoft.com/environments/<EnvironmentID>/home!! (Replacing **<EnvironmentID>** with the
      value fetched above)
 
 3.  Select **+ Create** from the left pane to create a new agent.
@@ -92,65 +90,60 @@ Travels agent template.
 In this task, you will publish the agent created in Copilot Studio to
 the Microsoft Teams and Microsoft 365 Copilot channel.
 
-1.  Open the **App launcher** from the top-left corner of the screen.
-    Select **Teams**.
-
-     ![](./media/image12.png)
-
-2.  Back in the Copilot Studio, select **Publish** from the top right of
+1.  Back in the Copilot Studio, select **Publish** from the top right of
     the agent page.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
 
-3.  Select **Publish** in the confirmation dialog.
+2.  Select **Publish** in the confirmation dialog.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
-4.  Select **Channels** from the top navigation bar.
+3.  Select **Channels** from the top navigation bar.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
-5.  Select **Teams and Microsoft 365 Copilot** from the list of
+4.  Select **Teams and Microsoft 365 Copilot** from the list of
     available channels.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
 
-6.  Select **Add channel**.
+5.  Select **Add channel**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
-7.  Click on the **See agent in Teams** option add the agent to the
+6.  Click on the **See agent in Teams** option add the agent to the
     Teams.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
-8.  If the screens below appears, select **Cancel** and then select
+7.  If the screens below appears, select **Cancel** and then select
     **Use the web app instead**.
 
     ![](./media/image19.png)
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
 
-9.  This opens up the agent in the Microsoft Teams. Select **Add** to
+8.  This opens up the agent in the Microsoft Teams. Select **Add** to
     add the agent.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
-10. Once added, you will get an option to open the agent. Select
+9. Once added, you will get an option to open the agent. Select
     **Open**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
 
-11. Test the agent from Teams. Enter the given prompt – !!Hi!!.
+10. Test the agent from Teams. Enter the given prompt – !!Hi!!.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
 
-12. Enter the given prompt – !!How can I apply for passport?!! and click
+11. Enter the given prompt – !!How can I apply for passport?!! and click
     on the **send** icon.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-13. Back in the Copilot Studio, close the Teams and Microsoft 365
+12. Back in the Copilot Studio, close the Teams and Microsoft 365
     Copilot channel window.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
@@ -203,7 +196,7 @@ to the company Contoso.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image32.png)
 
-4.  Click **Add** to the add the file.
+4.  Click **Add to agent** to the add the file.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
 
@@ -252,7 +245,7 @@ the travel approval request will be sent.
 In this task, we will create a new Agent flow to post the travel request
 to the Teams channel
 
-1.  Select **Flows** from the left pane.
+1.  Return to **Copilot Studio** portal. Select **Flows** from the left pane.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image42.png)
 
@@ -315,20 +308,12 @@ to the Teams channel
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image55.png)
 
 13. In the Message field, enter the following
-
-    '''
     
-     Travel Request from
+     !!Travel Request from!!
     
-     Employee ID - <Employee ID>
+     !!Employee ID!! - Select <EmployeeID> from dynamic content
     
-     Purpose - <Purpose>
-    
-     '''
-    
-     Replace **<Employee ID>** and **<Purpose>** with the dynamic
-     content variables, **Employee ID** and **Purpose** as in the below
-     screenshots.
+     !!Purpose!! - Select <Purpose> from dynamic content   
     
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image56.png)
     
@@ -405,7 +390,7 @@ Travels in order to leverage the flow functionality.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image73.png)
 
-6.  Select **Add to agent**.
+6.  If appears, select **Add to agent**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image74.png)
 
@@ -435,13 +420,13 @@ flow.
 
     **Name** - !!Travel Approval!!
     
-    **Create a topic to** - !!This topic should get the Employee ID
-    (Number) and Purpose of travel (Text) details from the user and invoke
-    the Tool "Request Travel Approval Flow"!!
+    **Create a topic to** - !!This topic should get the Employee ID (Number) and Purpose of travel (Text) details from the         user and invoke the Tool "Request Travel Approval Flow"!!
     
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image79.png)
 
 4.  The **Topic** gets created as below.
+
+    **Note**: As the topic is AI-generated, it may not match the image shown below.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image80.png)
     
@@ -497,7 +482,7 @@ flow.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image93.png)
 
-15. Select the **Test** icon and enter +++Travel Approval+++ and
+15. Select the **Test** icon and enter !!Travel Approval!! and
     **send** from the test pane.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image94.png)
@@ -508,8 +493,7 @@ flow.
     
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image95.png)
 
-17. Enter the Purpose of travel - !!Client meeting for finalizing
-    proposal of XYZ project!! and click on the **send** icon.
+17. Enter the Purpose of travel - !!Client meeting for finalizing proposal of XYZ project!! and click on the **send** icon.
 
     ![A screenshot of a chat AI-generated content may be incorrect.](./media/image96.png)
 
@@ -545,12 +529,9 @@ to learn about the leaves, leave balance for employees and so on.
 
     - Name - !!Leave Manager Agent!!
 
-    - Description - !!This agent is to track the leaves of all the
-      employees, their leave balance and leave history to approve or
-      reject any new leave requests.!!
+    - Description - !!This agent is to track the leaves of all the employees, their leave balance and leave history to             approve or reject any new leave requests.!!
 
-    - Instructions - !!Track the leaves of employees. Track their leave
-      balance. Apply/Reject leaves based on their balance.!!
+    - Instructions - !!Track the leaves of employees. Track their leave balance. Apply/Reject leaves based on their                balance.!!
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image102.png)
 
@@ -590,9 +571,7 @@ to learn about the leaves, leave balance for employees and so on.
 
     - Name - !!Leave Balance Checker!!
     
-    - Create a topic to - !!Get the Employee ID from the user and check and
-      reply with the leave balance based on the tracker added as knowledge
-      source!!
+    - Create a topic to - !!Get the Employee ID from the user and check and reply with the leave balance based on the              tracker added as knowledge source!!
     
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image110.png)
 
@@ -671,7 +650,7 @@ to travel.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image122.png)
 
-7.  Select **Add agent** to add this agent to **Safe Travels**.
+7.  Select **Add agent/Add and configure** to add this agent to **Safe Travels**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image123.png)
 
@@ -719,6 +698,7 @@ to travel.
 **Summary:** In this lab, you learnt how to enhance an agent created
 from a template to suit the individual needs. You have also learnt to
 implement Multi agent orchestration in the Copilot Studio.
+
 
 
 
