@@ -13,6 +13,8 @@ time of the showing.
     tenant** credentials
     using !!https://go.microsoft.com/fwlink/?LinkId=2107702!!. Select **Sign in**/**Continue**.
 
+    **Note**: If asked, solve a puzzle to sign in.
+
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
 
 2.  Fill up the following required information and then select **Get
@@ -89,8 +91,7 @@ time of the showing.
 
      ![](./media/image16.png)
 
-14. With your agent created, select **Topics** from the above horizontal
-    pallet.
+14. With your agent created, select **Topics** from the above horizontal lost of options.
 
      ![](./media/image17.png)
 
@@ -118,9 +119,9 @@ time of the showing.
 
      ![](./media/image20.png)
 
-     **Note:** Remember, your generated content might appear differently than what's shown in this lab.
+     **Note:** Remember, your generated content might appear differently than what's shown in this lab because it is AI-generated.
 
-     Multiple question nodes, entity selection, and variable naming should also display.
+     Multiple question nodes, entity selection, and variable naming should also display. If the suggested nodes are not generated in the topic then you can add nodes manually by clicking + icon below the existing node and  and creating a new node as required.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
@@ -155,7 +156,7 @@ which helps you to summarize the entered information and to prompt the
 user if the details are correct.
 
 1.  Make sure that no node is selected by clicking in the empty space
-    around the nodes.
+    around the nodes. Select **Copilot** icon from the toolbar to open the **Edit with Copilot** panel.
 
 2.  In the **Edit with Copilot** panel, in the **What do you want to
     do?** field, enter the following text:
@@ -171,6 +172,8 @@ user if the details are correct.
 
      ![](./media/image29.png)
 
+    **Note**: If Copilot generates two adaptive card nodes then delete the one are generated in your topic by selecting the      **More** icon (…) of the node and select **Delete** from the menu.
+    
 5.  Select the **Adaptive Card**. The Adaptive Card properties should
     appear on the right of the screen.
 
@@ -245,6 +248,7 @@ user if the details are correct.
      ![](./media/image41.png)
 
  **Summary**: In this lab, you created a Real Estate Booking Service agent which helps you to collect user’s information.         You have used an Adaptive card to summarize information collected from the user and to enhance the conversation              experience.
+
 
 
 
