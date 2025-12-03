@@ -11,7 +11,7 @@ time of the showing.
 
 1.  Sign into **Microsoft Copilot Studio** with your **Office 365 admin
     tenant** credentials
-    using !!https://go.microsoft.com/fwlink/?LinkId=2107702!!
+    using !!https://go.microsoft.com/fwlink/?LinkId=2107702!!. Select **Sign in**/**Continue**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
 
@@ -48,7 +48,7 @@ time of the showing.
 
      ![image](./media/image7.png)
 
-     Navigate back to the Copilot Studio tab and open !!https://copilotstudio.microsoft.com/environments/>**\<
+     Navigate back to the Copilot Studio tab and open !!https://copilotstudio.microsoft.com/environments/**<
      EnvironmentID>**/home!! (Replacing **< EnvironmentID >** with the value fetched above)
 
      ![](./media/image8.png)
@@ -245,5 +245,6 @@ user if the details are correct.
      ![](./media/image41.png)
 
  **Summary**: In this lab, you created a Real Estate Booking Service agent which helps you to collect user’s information.         You have used an Adaptive card to summarize information collected from the user and to enhance the conversation              experience.
+
 
 
