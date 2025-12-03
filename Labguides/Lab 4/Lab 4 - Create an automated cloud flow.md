@@ -480,7 +480,7 @@ Follow these steps to send an email if the vacation request is approved:
 
 1.  Enter the details in the **Vacation** list.
 
-2.  Select the approval flow from the run History.
+2.  From the **Power Automate portal**, select **My flows** from the the left pane, click on the **Approval Workflow**.          Select the running approval flow from the run History.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image74.png)
 
@@ -504,6 +504,7 @@ Follow these steps to send an email if the vacation request is approved:
  automated cloud flow triggered when a new item is added to the list,
  to add different actions and conditional logic and verified approval
  outcomes in Power Automate and Outlook.
+
 
 
 
