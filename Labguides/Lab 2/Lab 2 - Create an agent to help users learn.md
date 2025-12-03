@@ -58,7 +58,7 @@ Copilot Studio documentation.
 
      ![](./media/image6.png)
 
-9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell Copilot you want to                  !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
+9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell Copilot you want to !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
@@ -490,6 +490,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
