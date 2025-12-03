@@ -24,7 +24,7 @@ Copilot Studio documentation.
     using !!https://copilotstudio.microsoft.com/!!
     You land on the **Home** page.
 
-2.  Ensure that you are in **Dev One** environment.
+2.  Ensure that you are in **Dev One** environment. If not, follow the instructions in Lab 1 > Exercise 1 > Step 5.
 
     ![](./media/image1.png)
 
@@ -490,6 +490,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
