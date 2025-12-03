@@ -9,34 +9,36 @@ updates.
 
 ## **Exercise 1: Create a SharePoint list**
 
+### **Task 1: Create a SharePoint list**
+
 Before you create the flow, create a SharePoint Online list. Later, you
 will use this list to request approval for vacations.
 
-1.  Login to office 365 !!https://www.office.com/!! using your 365 Tenant
+1.  Sign in to office 365 using !!https://www.office.com/!! with your 365 Tenant
     Credentials.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
 
 2.  Close the Pop-up window.
 
-     ![A white background with blue and purple text AI-generated content may be incorrect.](./media/image2.png)
+     ![A white background with blue and purple text AI-generated content may be incorrect.](./media/imagee1.2.png)
 
 3.  From the left navigation pane, select **Apps**. Close the pop-up
     window that says **Welcome to Apps**.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/imagee1.3.png)
 
 4.  Select **SharePoint**.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/imagee1.4.png)
 
 5.  Close the pop-up window.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/imagee1.5.png)
 
 6.  Select **+Create site**.
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/imagee1.6.png)
 
 7.  Select **Communication site**.
 
@@ -66,38 +68,32 @@ will use this list to request approval for vacations.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
 
-14. Select **Create** (+ icon) from the left navigation pane -> **List**
-
-     ![](./media/image14.png)
-
-15. Select **Blank List.**
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
-
-     ![A screenshot of a computer Description automatically generated](./media/image16.png)
-
-16. Enter the details and click on **Create**.
+14. Enter the details and click on **Create**.
 
     - Name – !!Vacation!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
+15. For a better visibility, close the **New steps** pane which is opened on the right side on the screen.
 
-    - Description - !!Request approval for vacation!!
-    
-    - Choose a color – Dark blue
-    
-    - Choose an icon – Lightbulb
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
 
-     ![](./media/image19.png)
+16. Select **Add Column** and select **Date and time** then click on
+    **Next**. (Note that **‘Title’** column is already present in the
+    list, so we will start adding remaining columns.)
 
-17. Create these columns in your SharePoint Online list using upcoming
-    steps:
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
+
+17. Enter **Start Date** as Name in the create a column dialog that
+    appears on the right pane and then click on **Save.**
+
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
+
+18. Simillarally create the following columns in your SharePoint Online list. The list after adding all the columns looks        like the image below.
 
     Column and its type:
      
-    Title: Single line of text
+    Title: Single line of text (already present in the list)
     
     Start Date: Date and Time
     
@@ -109,32 +105,7 @@ will use this list to request approval for vacations.
     
     Manager Comments: Text (Single line of text)
 
-     **Note**: For a better visibility, close the **New steps** pane which
-     is opened on the right side on the screen.
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
-
-18. Select **Add Column** and select **Date and time** then click on
-    **Next**. (Note that **‘Title’** column is already present in the
-    list, so we will start adding remaining columns.)
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
-
-19. Enter **Start Date** as Name in the create a column dialog that
-    appears on the right pane and then click on **Save.**
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
-
-20. Repeat the Stepno 18 and 19 to add more columns listed in the Step 17. The list after adding all the columns looks like      the image below.
-
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
-
-21. Make note of the name and URL of the SharePoint site. To do so,
-    click on the Contoso (name of the site) and copy the site URL in the
-    notepad on the VM. You'll need these items later when you configure
-    the **SharePoint - When an item is created** trigger.
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
 ## **Exercise 2: Create an approval workflow**
 
@@ -147,8 +118,6 @@ SharePoint updates for approved or rejected requests.
 1.  Log in to **Power Automate** using !!https://make.powerautomate.com/!!
     with your office 365 Tenant credentials.
 
-     ![](./media/image25.png)
-
 2.  Select **Dev One** environment from the environment selector.
 
     ![](./media/image26.png)
@@ -159,7 +128,7 @@ SharePoint updates for approved or rejected requests.
 
 ### **Task 2: Add a trigger**
 
-1.  Give your flow a name - **Approval Workflow.**
+1.  Give your flow a name - !!Approval Workflow!!.
 
 2.  Under **Choose your flow's trigger**, select **When an item is
     created - SharePoint**, and then select **Create**.
@@ -179,7 +148,7 @@ SharePoint updates for approved or rejected requests.
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image30.png)
 
 5.  Select **List Name** for the SharePoint list that you created
-    earlier - **Vacation**.
+    earlier - **Vacation** and then close the pane.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image31.png)
 
@@ -189,7 +158,7 @@ SharePoint updates for approved or rejected requests.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image32.png)
 
-2.  Type **profile** into the **Choose an operation** search box. Find,
+2.  Type !!profile!! into the **Choose an operation** search box. Find,
     and then select the **Get my profile (V2)** action.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
@@ -199,13 +168,13 @@ SharePoint updates for approved or rejected requests.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image34.png)
 
-4.  From the drop-down menu of the **Select fields**, mark the checkbox
+4.  From the drop-down menu of the **Advanced parameters**, mark the checkbox
     of **Select fields**.
 
      ![](./media/image35.png)
 
 5.  Click in the plain area and then select enter !!aboutMe!! in the
-    **Select fields**.
+    **Select fields** and then close the pane.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
@@ -219,8 +188,10 @@ SharePoint updates for approved or rejected requests.
 
      ![](./media/image38.png)
 
-2.  Type **approval** into the **Choose an action** search box. Select
-    the **Start and wait for an approval** action.
+2.  Type !!approval!! into the **Choose an action** search box. Select
+    the **Start and wait for an approval** action. 
+
+    **Note**: If asked to create a new connection then select **Create new**.
 
      ![](./media/image39.png)
 
@@ -228,14 +199,13 @@ SharePoint updates for approved or rejected requests.
 
     - **Approval type** – Approve/Reject – First to respond
 
-    - **Title** - !!Vacation Request!! for <Created By DisplayName>
-      (Select Created by DisplayName from Dynamic Content)
+    - **Title** - !!Vacation Request for!! < CreatedByDisplayName > (Select Created by DisplayName from Dynamic Content)
 
      ![](./media/image40.png)
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image41.png)
 
-    - For **Assigned To** field, select **Created By Email.** To do so,
+    - For **Assigned To** field, select **Created By Email** from Dynamic content. To do so,
       select **Settings** menu in the **Assigned To** field, select **Use
       dynamic content** and then select **Created By Email.**
 
@@ -243,8 +213,9 @@ SharePoint updates for approved or rejected requests.
 
      ![](./media/image43.png)
 
-    - Details - <Created By DisplayName> wants to go on vacation from
-      <Start Date> to <End Date>
+    - Details - <CreatedByDisplayName> !!wants to go on vacation from!! <StartDate> to <EndDate> 
+
+      Select CreatedByDisplayName, StartDate and EndDate from dynamic content.
 
      **Note:** The **Approval type**, **Title** and **Assigned To** fields
      are required. You can use **Markdown** to format
@@ -256,7 +227,7 @@ SharePoint updates for approved or rejected requests.
 
 ### **Task 5: Add a condition**
 
-1.  Select **+ icon** to add **New step** and then enter **Condition**
+1.  Select **+ icon** to add **New step** and then enter !!Condition!!
     in the search box select **Condition** in the list of actions.
 
      ![](./media/image45.png)
@@ -269,7 +240,7 @@ SharePoint updates for approved or rejected requests.
      ![](./media/image46.png)
 
 3.  In the **Condition** step, select the **Choose a value** box on the
-    right and then enter **Approve** into the box.
+    right and then enter !!Approve!! into the box.
 
      ![](./media/image47.png)
 
@@ -291,7 +262,7 @@ Follow these steps to send an email if the vacation request is approved:
      ![](./media/image49.png)
 
 2.  Enter **send email** into the search box on the **Choose an
-    action** card. Select the **Send an email (V2)** action.
+    action** card. Select the **Send an email (V2)** action from Office 365 Outlook. If asked, select **Sign in**. 
 
      ![](./media/image50.png)
 
@@ -305,7 +276,7 @@ Follow these steps to send an email if the vacation request is approved:
      In the **Body** box on the **Send an email (V2)** card, use
      the **Comments** token from the **Approvals - Start an approval** action.
 
-    - **To** - Select <Created By Email> from dynamic content. Select
+    - **To** - Select <CreatedByEmail> from dynamic content. Select
       **Settings** icon for the To field, select **Use dynamic content** and
       then select **Created By Email** from dynamic content.
 
@@ -313,9 +284,9 @@ Follow these steps to send an email if the vacation request is approved:
 
     - **Subject** – Enter !!Your vacation request has been approved!!.
 
-    - **Body** – Enter !!Your vacation has been approved by!! <Responses Approver Name>
+    - **Body** – Enter !!Your vacation has been approved by!! <ResponsesApproverName> (from dynamic content)
 
-     Approver Comments – Select **Responses Comments** from dynamic content.
+      Enter !!Approver Comments!! – Select **Responses Comments** from dynamic content.
 
      ![](./media/image52.png)
 
@@ -334,8 +305,7 @@ Follow these steps to send an email if the vacation request is approved:
 
 3.  Configure the **Update item** with the Vacation Requests details.
 
-    - **Site Address** – **Contoso site address** copied in the previous
-      exercise
+    - **Site Address** – Select **Contoso site address** from the drop-down list
 
     - **List Name** – Select **Vacation** from the drop-down list
 
@@ -345,14 +315,14 @@ Follow these steps to send an email if the vacation request is approved:
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image55.png)
 
-    - Title – Select <**Title**> from the Dynamic content
+    - Title – Select <**Title**> from the Dynamic content listed under **When an item is created**.
 
-    - Start Date - Select <**Start Date**> from the Dynamic content
+    - Start Date - Select <**Start Date**> from the Dynamic content listed under **When an item is created**.
 
-    - End Date - Select <**End Date**> from the Dynamic content
+    - End Date - Select <**End Date**> from the Dynamic content listed under **When an item is created**.
 
     - Manager Comments - Select <**Responses Comments**> from the Dynamic
-      content
+      content listed under **Start and wait for an approva**l.
 
      **Note: Site Address**, **List Name**, **Id**, and **Title** are required.
 
@@ -373,7 +343,7 @@ Follow these steps to send an email if the vacation request is approved:
 
 3.  Configure the email as below.
 
-    - To – Select <Created By Email> from the Dynamic content. To do
+    - To – Select <CreatedByEmail> from the Dynamic content. To do
       so, select **Settings** icon for the To field, select **Use
       dynamic content** and then select **Created By Email** from
       dynamic content.
@@ -382,7 +352,7 @@ Follow these steps to send an email if the vacation request is approved:
 
      ![](./media/image60.png)
 
-    - Subject – !!Sorry – Your vacation request was not approved!!.
+    - Subject – !!Sorry - Your vacation request was not approved!!
 
     - Body - Seelct <**Responses Comments**> from the Dynamic content
 
@@ -396,7 +366,7 @@ Follow these steps to send an email if the vacation request is approved:
 ### **Task 9: Add update action for rejected requests**
 
 1.  Under the **Send an email (V2)** step, select **+ icon** to **Add an
-    action** in the **True** branch.
+    action** in the **False** branch.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image62.png)
 
@@ -408,20 +378,17 @@ Follow these steps to send an email if the vacation request is approved:
 
 3.  Configure the card as below.
 
-    - Site Address – **Contoso site address** copied in the previous
-      exercise
+    - Site Address – **Contoso site address** from the drop-down list
 
     - List Name – Select **Vacation** from the drop-down list
 
-    - Id - <**ID**> (Select from Dynamic content under When an item is
-      created)
+    - Id - <**ID**> (Select from Dynamic content under **When an item is created**)
 
     - Select **Show all** in the **Advanced parameters** field
 
      ![](./media/image64.png)
 
-    - Title - <**Title**> (Select from Dynamic content under When an item
-      is created)
+    - Title - <**Title**> (Select from Dynamic content under **When an item is created**)
 
     - Manager Comments - <**Manager Comments**> from Dynamic content
 
@@ -457,11 +424,11 @@ Follow these steps to send an email if the vacation request is approved:
 
     - **Title** - !!Vacation Request!!
     
-    - **Start Date** – !!December 15!!
+    - **Start Date** – Select December 15 
     
-    - **End Date** – !!December 16!!
+    - **End Date** – Select December 16
     
-    - **Comments** – !!Travelling to native!!
+    - **Comments** – !!Travelling to my hometown!!
 
      ![](./media/image67.png)
 
@@ -472,7 +439,7 @@ Follow these steps to send an email if the vacation request is approved:
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image68.png)
 
-4.  Under the history pane, you can see the status as **Running**.
+4.  Under the history pane, you can see the status as **Running**. **Refresh** the page if you dont see the status as running. 
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image69.png)
 
@@ -537,6 +504,7 @@ Follow these steps to send an email if the vacation request is approved:
  automated cloud flow triggered when a new item is added to the list,
  to add different actions and conditional logic and verified approval
  outcomes in Power Automate and Outlook.
+
 
 
 
