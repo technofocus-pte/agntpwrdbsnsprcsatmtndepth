@@ -95,22 +95,45 @@ group and assigned a Bot author role to MOD Administrator.
 
 1.  Open a web browser on your VM and go to the Azure portal using
     !!https://portal.azure.com/!!. Sign in with the given **Office 365
-    admin credentials.** Complete the authentication process.
+    admin credentials.** You can see the image shown below in your portal. Follow the instructions given in the coming steps     to complete the authentication process.
 
-2.  On the Microsoft Azure portal, in the search bar, enter !!Microsoft Entra!! and select **Microsoft Entra ID** from the       suggestions.
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.0.png)
+
+2.  In your mobile, install the **Microsoft Authenticator** App and then come back to **Microsoft Azure portal**.                **Microsoft Authenticator – Install Microsoft Authenticator** window, click on the **Next** button.
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.1.png)
+
+3   In **Microsoft Authenticator – Set up your account** window, click on the **Next** button.
+
+   ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.2.png)
+
+4	**Scan the QR code** using the **Authenticator app** installed in your mobile phone and click on the Next button.
+
+  ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.3.png)
+
+5.  Enter the number in your mobile authenticator app and select **Yes**.
+
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.4.png)
+
+
+6. Click on the Done button.
+
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.5.png)
+   
+4.  On the Microsoft Azure portal, in the search bar, enter !!Microsoft Entra!! and select **Microsoft Entra ID** from the       suggestions.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
-3.  From the left navigation pane, expand **Manage** and then select
+5.  From the left navigation pane, expand **Manage** and then select
     **Groups**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
-4.  Select **New group**.
+6.  Select **New group**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image20.png)
 
-5.  On the **New Group** page, provide the following information.
+7.  On the **New Group** page, provide the following information.
 
      Group type: Security
 
@@ -119,80 +142,81 @@ group and assigned a Bot author role to MOD Administrator.
      ![](./media/image21.png)
 
 
-6.  If appears, select **Yes** for **Microsoft Entra roles can be assigned to the group**. Then to select owners, click on       the **no owners selected**.
+8.  If appears, select **Yes** for **Microsoft Entra roles can be assigned to the group**. Then to select owners, click on       the **no owners selected**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
-
-7.  **Check** the **checkbox** of **MOD Administrator** and then click
-    on the **Select** button.
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
-
-8.  To select members, click on the **no members selected**.
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
 
 9.  **Check** the **checkbox** of **MOD Administrator** and then click
     on the **Select** button.
 
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
+
+10.  To select members, click on the **no members selected**.
+
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
+
+11.  **Check** the **checkbox** of **MOD Administrator** and then click
+    on the **Select** button.
+
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-10. If appears, click on the **No roles selected** in the **Roles** field, enter !!Global!! in the search box, select **Global         Administrator** then click on the **Select** button. Select **Create**.
+12. If appears, click on the **No roles selected** in the **Roles** field, enter !!Global!! in the search box, select **Global         Administrator** then click on the **Select** button. Select **Create**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
-11. Navigate to Power Platform admin center. From the left navigation
+13. Navigate to Power Platform admin center. From the left navigation
     pane, select **Manage** tab. Then select **Tenant settings**. In the
     search box, enter !!Copilot Studio!! and then select **Copilot
     Studio authors**.
 
      ![](./media/image26.png)
 
-12. Click on the **Edit** icon (pencil) next to the **None** opiton.
+14. Click on the **Edit** icon (pencil) next to the **None** opiton.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image27.png)
 
-13. Select **Agentgrp** and then click on the **Done** button.
+15. Select **Agentgrp** and then click on the **Done** button.
 
      ![A white screen with text AI-generated content may be incorrect.](./media/image28.png)
 
-14. Select **Save**.
+16. Select **Save**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image29.png)
 
-15. From the left navigation pane, select **Manage** > **Environments**
+17. From the left navigation pane, select **Manage** > **Environments**
     and then click on the **Dev One** environment.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image30.png)
 
-16. In the **Access** section, click on the **See all** below the
+18. In the **Access** section, click on the **See all** below the
     **Users** option.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image31.png)
 
-17. Select **MOD Administrator.**
+19. Select **MOD Administrator.**
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image32.png)
 
-18. Select **Manage roles**.
+20. Select **Manage roles**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
 
-19. Seelct **Bot author** role and then click on the **Save** button.
+21. Seelct **Bot author** role and then click on the **Save** button.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image34.png)
 
-20. Select **Save** agin to confirm the selection.
+22. Select **Save** agin to confirm the selection.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image35.png)
 
-21. Close the window.
+23. Close the window.
 
      ![](./media/image36.png)
 
 **Summary**: In this lab, you acquired Power Apps trial license and
 created a team in Microsoft Teams. You also created a security group and
 assigned a Bot author role to MOD Administrator.
+
 
 
 
