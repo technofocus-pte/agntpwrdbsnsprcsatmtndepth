@@ -38,8 +38,7 @@ Copilot Studio documentation.
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  For this example, tell Copilot you want to name your agent "Friendly
-    Tutor." To do so enter the given prompt - !!Name the agent as
-    Friendly Tutor!! and then click on the **Send** icon.
+    Tutor." To do so enter the given prompt - !!Name the agent as Friendly Tutor!! and then click on the **Send** icon.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
@@ -55,15 +54,12 @@ Copilot Studio documentation.
     The instructions can have up to 8,000 characters. In this case, we are going with the above prompt.
 
 8.  Specify the desired conversation style and tone your agent should
-    use, for example, enter the given prompt - !!Friendly Tutor should
-    talk to users like a kind, patient teacher!! and then click on the
-    **Send** icon.
+    use, for example, enter the given prompt - !!Friendly Tutor should talk to users like a kind, patient teacher!! and then     click on the **Send** icon.
 
      ![](./media/image6.png)
 
 9.  Add knowledge to your agent, if desired. For Friendly Tutor, tell
-    Copilot you want to
-    !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
+    Copilot you want to !!Use https://learn.microsoft.com/microsoft-copilot-studio as a knowledge source!!
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
@@ -73,8 +69,7 @@ Copilot Studio documentation.
 
      ![A screenshot of a chat AI-generated content may be incorrect.](./media/image8.png)
 
-11. The **Overview** page for your agent appears. Now you can
-    start testing and improving your agent https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-         started#improve-your-agent).
+11. The **Overview** page for your agent appears. Now you can start testing and improving your agent. 
 
      ![](./media/image9.png)
 
@@ -85,8 +80,7 @@ again. Repeat.
 
 1.  Start by testing how your agent currently responds in the test chat.
     In the **Test you agent** pane, which is opened on right side of the
-    screen, ask your agent a question. For example, enter !!How do I
-    add a knowledge source?!! and select **Send** icon.
+    screen, ask your agent a question. For example, enter !!How do I add a knowledge source?!! and select **Send** icon.
 
      ![](./media/image10.png)
 
@@ -140,9 +134,7 @@ encourages them to interact with your agent.
 3.  Replace the default message with your own by the message given
     below:
 
-     !!Hello, I'm here to help you learn how to use Microsoft Copilot
-     Studio. You can ask me all about agents: "What is an agent?" "How do I
-     make an agent?" "How do agents work?"!!
+     !!Hello, I'm here to help you learn how to use Microsoft Copilot Studio. You can ask me all about agents: "What is an        agent?" "How do I make an agent?" "How do agents work?"!!
 
      ![](./media/image20.png)
 
@@ -166,9 +158,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
 ### **Task 1: Add Secondary Language and Upload Localization File**
 
-1.  Return to the **Agent Overview** page. From the top navigation bar,
-    click on **Settings** to open the configuration options for the
-    agent.
+1.  From the top navigation bar, click on **Settings** to open the configuration options for the agent.
 
     ![](./media/image22.png)
 
@@ -230,7 +220,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
 ### **Task 2: Add Secondary Language (German) and Upload Localization File**
 
-1.  Click on the **+ Add language** to add German language in the agent.
+1.  Click on the **+ Add language** to add German language to the agent.
 
      ![](./media/image33.png)
 
@@ -244,16 +234,16 @@ This ensures the agent can respond appropriately in multiple languages.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image35.png)
 
-9.  Click **Browse**.
+4.  Click **Browse**.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
-10. locate the localization_translated_de.js file in your Downloads
+5. Locate the localization_translated_de.js file in your Downloads
     folder, and click **Open**.
 
      ![](./media/image37.png)
 
-11. Click **Upload translation updates**. When prompted again,
+6. Click **Upload translation updates**. When prompted again,
     click **Upload localization** to confirm and apply the translated
     content to the agent.
 
@@ -261,7 +251,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image39.png)
 
-12. Once the upload is successful, click on the **Close** button to exit
+7. Once the upload is successful, click on the **Close** button to exit
     the language management section.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image40.png)
@@ -270,7 +260,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
 ### **Task 3: Create a Topic to Detect Language and Set User Preference**
 
-1.  Select **Agents** from the left navigation pane.
+1.  Select **Agents** from the left navigation pane. Click on the **Friendly Tutor** agent to open it.
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image42.png)
 
@@ -307,8 +297,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image48.png)
 
-8.  In the **Instructions** pane, enter the following text +++Determine
-    which language this message is written in:+++
+8.  In the **Instructions** pane, enter the following text !!Determine which language this message is written in:!!
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image49.png)
 
@@ -317,8 +306,7 @@ This ensures the agent can respond appropriately in multiple languages.
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image50.png)
 
-10. For **Name**, enter: +++Message+++, for **Sample Data**,
-    enter: !!Message from the user!! and then click **Close** once done.
+10. For **Name**, enter: !!Message!!, for **Sample Data**, enter: !!Message from the user!! and then click **Close** once done.
 
    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image51.png)
 
@@ -414,7 +402,7 @@ This ensures the agent can respond appropriately in multiple languages.
 30. Under **All other conditions**, click on the + Icon add select
     **Variable management** > **Set a variable** node.
 
-  ![A screenshot of a computer AI-generated content may be incorrect.](./media/image71.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image71.png)
 
 31. For variable, click on the **Select a variable** field, navigate to
     **System** variable and select **User.Language**.
@@ -474,7 +462,7 @@ This ensures the agent can respond appropriately in multiple languages.
 Verify that the agent responds accurately to user input in both English
 and French using test prompts in the built-in test chat window.
 
-1.  Open the Test your agent panel from the right side of the Copilot
+1.  Open the **Test your agent** panel from the right side of the Copilot
     Studio interface if it not already opened.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image83.png)
@@ -501,6 +489,7 @@ and French using test prompts in the built-in test chat window.
  also learnt to enable multilingual support in the agent. You uploaded
  the translated localization file and created a custom topic that
  detects the user's language and sets it dynamically.
+
 
 
 
