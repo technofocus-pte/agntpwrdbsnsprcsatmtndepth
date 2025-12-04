@@ -39,7 +39,7 @@ Travels agent template.
 
      ![image](./media/image3.png)
 
-     Navigate back to the Copilot Studio tab and open                         !!https://copilotstudio.microsoft.com/environments/<EnvironmentID>/home!! (Replacing **<EnvironmentID>** with the
+     Navigate back to the Copilot Studio tab and open                                                 !!https://copilotstudio.microsoft.com/environments/< EnvironmentID >/home!! (Replacing **< EnvironmentID >** with the
      value fetched above)
 
 3.  Select **+ Create** from the left pane to create a new agent.
@@ -311,9 +311,9 @@ to the Teams channel
     
      !!Travel Request from!!
     
-     !!Employee ID!! - Select <EmployeeID> from dynamic content
+     !!Employee ID!! - Select < EmployeeID > from dynamic content
     
-     !!Purpose!! - Select <Purpose> from dynamic content   
+     !!Purpose!! - Select < Purpose > from dynamic content   
     
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image56.png)
     
@@ -339,8 +339,7 @@ to the Teams channel
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image62.png)
 
-19. Name it as !!Output!! and enter the value as +++Request
-    submitted+++.
+19. Name it as !!Output!! and enter the value as !!Request submitted!!.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image63.png)
 
@@ -698,6 +697,7 @@ to travel.
 **Summary:** In this lab, you learnt how to enhance an agent created
 from a template to suit the individual needs. You have also learnt to
 implement Multi agent orchestration in the Copilot Studio.
+
 
 
 
