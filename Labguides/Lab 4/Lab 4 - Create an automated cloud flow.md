@@ -213,7 +213,7 @@ SharePoint updates for approved or rejected requests.
 
      ![](./media/image43.png)
 
-    - Details - <CreatedByDisplayName> !!wants to go on vacation from!! <StartDate> to <EndDate> 
+    - Details - < CreatedByDisplayName > !!wants to go on vacation from!! < StartDate > to < EndDate > 
 
       Select CreatedByDisplayName, StartDate and EndDate from dynamic content.
 
@@ -276,7 +276,7 @@ Follow these steps to send an email if the vacation request is approved:
      In the **Body** box on the **Send an email (V2)** card, use
      the **Comments** token from the **Approvals - Start an approval** action.
 
-    - **To** - Select <CreatedByEmail> from dynamic content. Select
+    - **To** - Select < CreatedByEmail > from dynamic content. Select
       **Settings** icon for the To field, select **Use dynamic content** and
       then select **Created By Email** from dynamic content.
 
@@ -284,7 +284,7 @@ Follow these steps to send an email if the vacation request is approved:
 
     - **Subject** – Enter !!Your vacation request has been approved!!.
 
-    - **Body** – Enter !!Your vacation has been approved by!! <ResponsesApproverName> (from dynamic content)
+    - **Body** – Enter !!Your vacation has been approved by!! < ResponsesApproverName > (from dynamic content)
 
       Enter !!Approver Comments!! – Select **Responses Comments** from dynamic content.
 
@@ -504,6 +504,7 @@ Follow these steps to send an email if the vacation request is approved:
  automated cloud flow triggered when a new item is added to the list,
  to add different actions and conditional logic and verified approval
  outcomes in Power Automate and Outlook.
+
 
 
 
