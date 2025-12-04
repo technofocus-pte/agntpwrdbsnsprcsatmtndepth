@@ -30,7 +30,7 @@ Studio designer
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
-5.  Review the connections that Copilot connected to your flow. A
+5.  Review the connections that Copilot createdd for your flow. A
     green checkmark indicates that the connection is successful.
     Select **Create**.
 
@@ -98,17 +98,17 @@ Studio designer
 
 19. Under the **Details** field, enter the following information.
 
-     **Details**: <CreatedbyDisplayname> !!wants to go on vacation from!!
-     <StartDate> to <EndDate>. (Select Created by Displayname, Start
+     **Details**: < CreatedbyDisplayname > !!wants to go on vacation from!!
+     < StartDate > to < EndDate >. (Select Created by Displayname, Start
      Date and End Date from the Dynamic content)
 
      ![A screenshot of a computer screen AI-generated content may be incorrect.](./media/image18.png)
 
 20. Select the **Condition** step.
+    
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
     **Note**: If you see any extra node added by Copilot to your flow then click on the 3 dots (...) in that field and then       select **Delete**.
-
-     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
 21. Complete the condition step as shown below. In the first field of
     the expression select **Outcome** from the **dynamic content**,
@@ -212,6 +212,7 @@ Studio designer
 process for vacation requests by generating flow from a simple prompt,
 configuring SharePoint and email actions, and publishing the flow for
 real-world testing.
+
 
 
 
