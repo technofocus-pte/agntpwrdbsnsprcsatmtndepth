@@ -262,7 +262,7 @@ Follow these steps to send an email if the vacation request is approved:
      ![](./media/image49.png)
 
 2.  Enter **send email** into the search box on the **Choose an
-    action** card. Select the **Send an email (V2)** action from Office 365 Outlook. If asked, select **Sign in**. 
+    action** card. Select the **Send an email (V2)** action from **Office 365 Outlook**. If asked, select **Sign in**. 
 
      ![](./media/image50.png)
 
@@ -343,7 +343,7 @@ Follow these steps to send an email if the vacation request is approved:
 
 3.  Configure the email as below.
 
-    - To – Select <CreatedByEmail> from the Dynamic content. To do
+    - To – Select < CreatedByEmail > from the Dynamic content. To do
       so, select **Settings** icon for the To field, select **Use
       dynamic content** and then select **Created By Email** from
       dynamic content.
@@ -396,7 +396,7 @@ Follow these steps to send an email if the vacation request is approved:
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image65.png)
 
-1.  Select **Save** to save the work we've done.
+4.  Select **Save** to save the work we've done.
 
      Your flow should now look like this.
 
@@ -439,7 +439,7 @@ Follow these steps to send an email if the vacation request is approved:
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image68.png)
 
-4.  Under the history pane, you can see the status as **Running**. **Refresh** the page if you dont see the status as running. 
+4.  Under the history pane, you can see the status as **Running**. **Refresh** the page if you dont see the status as            running. 
 
      ![A screenshot of a computer AI-generated content may be incorrect.](./media/image69.png)
 
@@ -457,9 +457,9 @@ Follow these steps to send an email if the vacation request is approved:
 7.  The Approver either Approves or Rejects the vacation and a requestor
     (in this case MOD Admin only) receives an email.
 
-  The Approver has approved the vacation with the comments “Approved”.
+    The Approver has approved the vacation with the comments “Approved”.
 
-8.  Check the status under Power Automate - > **My flows** ->
+8.  Check the status of the flow. Go to **Power Automate** - > **My flows** ->
     **Approval WorkFlow**.
 
     ![](./media/image72.png)
@@ -504,6 +504,7 @@ Follow these steps to send an email if the vacation request is approved:
  automated cloud flow triggered when a new item is added to the list,
  to add different actions and conditional logic and verified approval
  outcomes in Power Automate and Outlook.
+
 
 
 
