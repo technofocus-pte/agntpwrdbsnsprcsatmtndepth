@@ -1,4 +1,4 @@
-**Lab 6 - Process custom documents with AI builder**
+# **Lab 6 - Process custom documents with AI builder**
 
 **Objective:** In this lab, you will learn how to create an AI model
 using AI Builder in Power Automate. The model will be trained to extract
@@ -8,9 +8,9 @@ to sign into AI Builder, choose document types, define fields to
 extract, upload documents for training, and finally, integrate the
 trained model with Power Automate and Power Apps.
 
-**Exercise 1: Create your first model**
+## **Exercise 1: Create your first model**
 
-**Task 1: Sign in to AI Builder**
+### **Task 1: Sign in to AI Builder**
 
 1.  Navigate to the Power Automate with the help of
     +++https://make.powerautomate.com/+++ and if asked, sign in using
