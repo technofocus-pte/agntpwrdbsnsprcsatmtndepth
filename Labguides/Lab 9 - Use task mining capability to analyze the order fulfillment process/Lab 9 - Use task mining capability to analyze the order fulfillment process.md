@@ -12,45 +12,38 @@ steps and using analytics to gain insights into the process efficiency.
 ### **Task 1: Import a solution**
 
 1.  **Sign in** to Power Automate using
-    +++\*\*https://make.powerautomate.com/\*\*+++ with your Office 365
+    +++https://make.powerautomate.com/+++ with your Office 365
     tenant credentials.
 
 2.  Select your environment – **Dev One**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image1.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
 
 3.  On the navigation pane to the left, select **Solutions**, and then
     in the toolbar at the top, select **Import solution**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image2.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image2.png)
 
 4.  Select **Browse**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image3.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image3.png)
 
 5.  Select the **Processmining.zip** file from **C:\LabFiles** and open
     it.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image4.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
 
 6.  Select **Next**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image5.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image5.png)
 
 7.  Select **Import** and wait for the solution to import.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image6.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image6.png)
 
 8.  Wait for the solution to import.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image7.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
 ## **Exercise 2: Explore the task mining capability**
 
@@ -60,21 +53,18 @@ steps and using analytics to gain insights into the process efficiency.
     pane to the left, select **Process mining** and then select
     the **Invoice submission process**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image8.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image8.png)
 
 2.  If you are navigated to the **Analytics** tab, then go back one
     step. Go back to the **Invoice submission process** by selecting it
     from the breadcrumbs at the top of the page.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image9.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image9.png)
 
 3.  You can see some of the existing recordings under the **Recordings**
     section.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image10.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
 
 ### **Task 2: Explore the features**
 
@@ -92,8 +82,7 @@ You'll see the following features:
 
 **Note**: Zoom in or out on the screen to make all buttons visible.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image11.png)
+![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.png)
 
 ### **Task 3: Analyze a process**
 
@@ -103,12 +92,11 @@ process.
 
 1.  Select **Analyze**.
 
-> **Note:** The analysis will take a few minutes to complete. During
-> this process, a status message is displayed under the **New
-> recording** button.
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image12.png)
+     **Note:** The analysis will take a few minutes to complete. During
+     this process, a status message is displayed under the **New
+     recording** button.
+    
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
 
 2.  If you run into an error during the analysis stage,
     select **Analyze** to trigger this action again.
@@ -117,12 +105,9 @@ process.
     to **Analyzed**. Select **Analytics** to see the process map and
     insights.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image13.png)
->
-> **Note:** This step may take a couple of minutes to complete after
-> the  
-> analysis has been performed.
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
+    
+     **Note:** This step may take a couple of minutes to complete after the analysis has been performed.
 
 ### **Task 4: Analytics page layout**
 
@@ -132,57 +117,50 @@ This section explains what you can do on the **Analytics** screen.
     to **Analyzed**. Select **Analytics** to see the process map and
     insights.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image14.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
 2.  You will see a screen similar to the following image.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image15.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
 3.  Initially, you will be on the **Process** tab. This tab gives
     in-depth information about the analyzed process, including the
     process map, time analytics for each variant, and each recording
     author.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image16.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image16.png)
 
 4.  Look at the top analytics data. The average process time is 1.47
     minutes out of five recordings.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image17.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
 5.  Analyze other time-based metrics dashboards.
 
     - **Activity by average time in sec**: Notice that **Enter invoice
       details** and **Download invoice** are taking the most time.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image18.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
-- **Recording by average time in min**: Notice that some people
-  (**Preston Morales** and **Shakti Menon**) are taking more time than
-  others.
+    - **Recording by average time in min**: Notice that some people
+      (**Preston Morales** and **Shakti Menon**) are taking more time than
+      others.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image19.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
 6.  Select the **Legend** option.
 
-> ![](./media/image20.png)
+     ![](./media/image20.png)
 
 7.  The legend option gives additional information about the report,
     helping them to better understand the visualizations and data
     presented.
 
-> ![](./media/image21.png)
+     ![](./media/image21.png)
 
 8.  Select the **Application** tab.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image22.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
 
 9.  The **Application** tab gives information about the apps used in
     recordings. This includes what apps were used by authors, how often
@@ -191,13 +169,11 @@ This section explains what you can do on the **Analytics** screen.
     automation for the process, and where to potentially use desktop
     flows, as there’s no existing connector.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image23.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image23.png)
 
 10. Go back to the process map by selecting **Process**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image24.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
 ### **Task 5: Automate activities**
 
@@ -208,8 +184,7 @@ your processes using Microsoft Power Automate.
 1.  Start to create a flow for automation by selecting **Automate
     activities** at the top.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image25.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
 
 2.  The tab opens in the browser and shows the flow designer. The
     recommended actions that match the activities from the process map
@@ -217,188 +192,154 @@ your processes using Microsoft Power Automate.
     connectors are suggested for you to use in order to automate
     the **Download invoice attachment from email** activity.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image26.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image26.png)
 
 3.  Select **Office 365 Outlook** connector.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image27.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image27.png)
 
 4.  Close the **Automate activities** and **Send feedback** panel.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image28.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image29.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image28.png)
+    
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image29.png)
 
 5.  Before creating this automation process, first complete the
     pre-requisite required for this activity. On the Power Automate
     portal, click on the **App launcher** and then select
     **SharePoint**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image30.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image30.png)
 
 6.  Select the **Contoso** site.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image31.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image31.png)
 
 7.  Select the **Documents** tab.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image32.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image32.png)
 
 8.  Select **Upload** and then select **Files**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image33.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
 
 9.  Upload the **Invoice** Excel from the **C:\Labfiles** folder of the
     VM.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image34.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image34.png)
 
 10. Select the **Send an email (V2)** action.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image35.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image35.png)
 
 11. In the **To** field, enter **MOD** and then select **MOD
     Administrator** from the suggestions.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image36.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
 12. Enter +++**Invoice**+++ in the **Subject** field.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image37.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image37.png)
 
-13. Select **+** **icon** \> **Add an action** to add a new step.
+13. Select **+** **icon** > **Add an action** to add a new step.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image38.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image38.png)
 
 14. Search for and select **Get file content using path**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image39.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image39.png)
 
 15. Select the **Contoso** site address from the drop-down menu.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image40.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image40.png)
 
-16. To select the file path, select the **Folder** icon \> **Shared
-    Documents** \> **Invoice.xlsx**.
+16. To select the file path, select the **Folder** icon > **Shared
+    Documents** > **Invoice.xlsx**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image41.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image41.png)
 
 17. Go back to the Send an email (V2) step. Select **Show advanced**
     option.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image42.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image42.png)
 
 18. In the **Attachments Name – 1** field, enter +++**Invoice**+++. In
-    the Attachment Content field, select **File Content** from the
-    dynamic content.
+    the Attachment Content field, select **File Content** from the dynamic content.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image43.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image43.png)
 
 19. Select **Automate activities** from the toolbar.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image44.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image44.png)
 
 20. Select the **Microsoft Teams** connector from the **Notify Team of
     submission**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image45.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image45.png)
 
 21. Close the **Automate activities** pane for better visibility.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image46.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image46.png)
 
 22. Select **Post message in a chat or channel** action.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image47.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image47.png)
 
 23. Select the following options from the drop-down menu of each field.
 
-> Post as – Flow bot
->
-> Post in – Channel
->
-> Team – Dev
->
-> Channel – DevChannel
->
-> Message – Enter +++Please check invoice+++
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image48.png)
+     Post as – Flow bot
+    
+     Post in – Channel
+    
+     Team – Dev
+    
+     Channel – DevChannel
+    
+     Message – Enter +++Please check invoice+++
+    
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image48.png)
 
 24. Select **Save** to save the flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image49.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image49.png)
 
 25. Select **Test** to test the flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image50.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image50.png)
 
 26. In the **Test Flow** window that appears on the right side of the
     screen, select **Manually** and then select **Test**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image51.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image51.png)
 
 27. Once you see the green check mark next to the apps, which shows you
     have signed in successfully, then select **Continue**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image52.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image52.png)
 
 28. Select **Run flow**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image53.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image53.png)
 
 29. Select **Done**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image54.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image54.png)
 
 30. Click on the **App launcher** and then select **Outlook**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image55.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image55.png)
 
 31. You will see an email with the attachment.
 
-> ![A screenshot of a chat AI-generated content may be
-> incorrect.](./media/image56.png)
+     ![A screenshot of a chat AI-generated content may be incorrect.](./media/image56.png)
 
 32. Click on the **App launcher** and then select **Teams**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image57.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image57.png)
 
 33. Go to the **DevChannel**. You will see the message from the bot.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image58.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image58.png)
 
 **Summary:** In this lab, you have learnt to utilize Power Automate task
 mining capabilities to analyze and optimize the order fulfillment
