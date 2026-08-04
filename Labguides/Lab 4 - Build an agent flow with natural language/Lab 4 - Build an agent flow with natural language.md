@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 4: Build an agent flow with natural language'
+  description: Before you create the flow, create a SharePoint Online list. Later, you will use this list to request approval for vacations.
+  duration: 136 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 4: Build an agent flow with natural language**
 
 **Objective:** In this lab, you will learn how to build an agent flow
