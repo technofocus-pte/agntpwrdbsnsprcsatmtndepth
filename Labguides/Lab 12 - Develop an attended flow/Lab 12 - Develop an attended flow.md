@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 12 - Develop an attended flow that reads orders and prompts users to select a discount
+  description: field, enter +++1+++ and then select Save.
+  duration: 114 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 12 - Develop an attended flow that reads orders and prompts users to select a discount**
 
 **Objective:** The objective of this lab is to develop an **attended
