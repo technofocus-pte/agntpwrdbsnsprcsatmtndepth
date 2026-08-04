@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 5: Create an agent and agent flow for a healthcare organization'
+  description: In this exercise, create an agent that captures this information and provides a potential diagnosis.
+  duration: 138 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 5: Create an agent and agent flow for a healthcare organization**
 
 **Objective**: In this lab, you will learn to create an agent that helps
