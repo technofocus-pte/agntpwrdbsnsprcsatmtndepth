@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 2 - Build an Inventory Management App
+  description: +++Build a candy inventory management app+++
+  duration: 140 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 2 - Build an Inventory Management App**
 
 **Objective:** In this lab, you will learn to create a functional
