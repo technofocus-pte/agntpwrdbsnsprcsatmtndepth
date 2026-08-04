@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 11 - Design a flow to generate a username and password​
+  description: In this exercise, you will create the flow with the help of Copilot. You will describe in natural language what you want to achieve. Here, you are building the flow using Copilot on the home page.
+  duration: 92 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 11 - Design a flow to generate a username and password​**
 
 **Objective:** The objective of this lab is to create and test a Power
