@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 3: Create an autonomous agent'
+  description: In this exercise, you will create an agent, add knowledge to it and test it. You will also change your agent's introduction.
+  duration: 148 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 3: Create an autonomous agent**
 
 **Objective**: In this lab, you will learn to create an agent
