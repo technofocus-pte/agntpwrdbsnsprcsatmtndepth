@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 7 - Create and analyze accounts payable refunding process
+  description: Let’s take the analysis of our process beyond KPIs. We'll use the Power Automate Process Mining desktop app, where you can edit and analyze your processes created in the process mining capability.
+  duration: 92 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+---
+
 # **Lab 7 - Create and analyze accounts payable refunding process**
 
 **Objective:** In this lab, you will learn to create and analyze an
