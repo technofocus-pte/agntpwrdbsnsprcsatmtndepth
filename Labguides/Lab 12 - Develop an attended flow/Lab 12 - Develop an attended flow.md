@@ -1,8 +1,11 @@
 ---
 lab:
   title: Lab 12 - Develop an attended flow that reads orders and prompts users to select a discount
-  description: field, enter +++1+++ and then select Save.
-  duration: 114 minutes
+  description: The objective of this lab is to develop an **attended
+Power Automate Desktop flow** that automates the process of reading
+orders from an Excel file and prompts users to apply a discount based on
+certain conditions.
+  duration: 35 minutes
   level: 100
   islab: true
 ---
