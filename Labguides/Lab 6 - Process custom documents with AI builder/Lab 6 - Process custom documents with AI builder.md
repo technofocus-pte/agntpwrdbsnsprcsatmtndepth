@@ -1,8 +1,9 @@
 ---
 lab:
   title: Lab 6 - Process custom documents with AI builder
-  description: Define collections and upload documents. A collection groups documents with the same layout. Create a collection for each unique layout your model needs to process. Since there are two invoice providers using different templates, we'll create two collections.
-  duration: 152 minutes
+  description: In this lab, you will learn how to create an AI model
+using AI Builder in Power Automate.
+  duration: 60 minutes
   level: 100
   islab: true
 ---
