@@ -1,8 +1,9 @@
 ---
 lab:
   title: 'Lab 0: Set up the lab environment'
-  description: environment – Dev One, which was created for you.
-  duration: 50 minutes
+  description: In this lab, you will acquire a Power Apps trial license
+and will create a team in Microsoft Teams.
+  duration: 07 minutes
   level: 100
   islab: true
 ---
