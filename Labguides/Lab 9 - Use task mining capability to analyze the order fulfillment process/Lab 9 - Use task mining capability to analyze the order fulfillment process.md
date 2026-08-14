@@ -2,7 +2,7 @@
 lab:
   title: Lab 9 - Use task mining capability to analyze the order fulfillment process
   description: In this task, you will use the Automate activities feature, which helps you identify automation opportunities and guides you through automating your processes using Microsoft Power Automate.
-  duration: 47 minutes
+  duration: 25 minutes
   level: 100
   islab: true
   primarytopics:
