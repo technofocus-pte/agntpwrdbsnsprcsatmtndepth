@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 1: Create an automated cloud flow with AI-powered capabilities'
+  description: In this exercise, you will create a Microsoft Form to collect feedback and set up a Planner plan for task management.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 1: Create an automated cloud flow with AI-powered capabilities**
 
 **Objective:** In this lab, you will learn how to build an automated

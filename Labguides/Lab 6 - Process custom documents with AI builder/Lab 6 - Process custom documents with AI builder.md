@@ -1,3 +1,13 @@
+---
+lab:
+  title: Lab 6 - Process custom documents with AI builder
+  description: In this lab, you will learn how to create an AI model
+using AI Builder in Power Automate.
+  duration: 60 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 6 - Process custom documents with AI builder**
 
 **Objective:** In this lab, you will learn how to create an AI model

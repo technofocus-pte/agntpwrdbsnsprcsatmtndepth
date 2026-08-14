@@ -1,3 +1,13 @@
+---
+lab:
+  title: 'Lab 4: Build an agent flow with natural language'
+  description: In this lab, you will learn how to build an agent flow
+using natural language in Microsoft Copilot Studio. Before you create the flow, create a SharePoint Online list. Later, you will use this list to request approval for vacations.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 4: Build an agent flow with natural language**
 
 **Objective:** In this lab, you will learn how to build an agent flow
