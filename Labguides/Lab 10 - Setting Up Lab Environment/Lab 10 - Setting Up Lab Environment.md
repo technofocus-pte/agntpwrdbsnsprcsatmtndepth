@@ -1,8 +1,9 @@
 ---
 lab:
   title: Lab 10 - Setting Up Lab Environment for Power Automate Desktop
-  description: left pane, then double-click on the Setup.Microsoft.PowerAutomate.exe.
-  duration: 44 minutes
+  description: In this lab, you will learn the process of setting up the
+Power Automate Desktop environment. 
+  duration: 20 minutes
   level: 100
   islab: true
   primarytopics:
