@@ -1,8 +1,8 @@
 ---
 lab:
   title: 'Lab 8: Process ingestion and process analytics with Copilot in Process Mining'
-  description: lab VM. After uploading the file, if you see that a connection is created automatically, as shown in the first screenshot below, then go to the next step. If a connection is not created, then scroll down and select Sign in as shown in the second screenshot below, and sign in with your admin tenant credentials.
-  duration: 52 minutes
+  description: In this lab you will learn to ingest the data and get the process analytics using Copilot in Process Mining.
+  duration: 15 minutes
   level: 100
   islab: true
 ---
