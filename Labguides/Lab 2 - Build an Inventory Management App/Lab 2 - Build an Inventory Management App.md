@@ -1,8 +1,9 @@
 ---
 lab:
   title: Lab 2 - Build an Inventory Management App
-  description: +++Build a candy inventory management app+++
-  duration: 140 minutes
+  description: In this lab, you will learn to create a functional
+inventory management application using Microsoft Power Apps and Copilot.
+  duration: 30 minutes
   level: 100
   islab: true
 ---
