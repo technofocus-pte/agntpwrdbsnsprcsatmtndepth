@@ -2,7 +2,7 @@
 lab:
   title: Lab 13 - Create a flow to organize and manage files and folders
   description: In this lab, participants successfully created a Power Automate Desktop flow to automate the organization and management of files and folders. By backing up files from a designated folder named ContosoFiles to a newly created backup folder, participants gained hands-on experience in essential file management tasks, including folder creation, file copying, and dynamic file renaming with timestamps. This lab highlights the effectiveness of Power Automate Desktop in streamlining file organization processes, reducing manual effort, and ensuring that important files are securely backed up. Participants left with practical knowledge of how to leverage automation for efficient file management, enhancing their productivity in everyday tasks.
-  duration: 56 minutes
+  duration: 20 minutes
   level: 100
   islab: true
   primarytopics:
